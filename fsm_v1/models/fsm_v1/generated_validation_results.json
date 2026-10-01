@@ -1,0 +1,590 @@
+{
+  "cases": 18,
+  "failed_turns": 0,
+  "passed_cases": 18,
+  "passed_turns": 21,
+  "results": [
+    {
+      "id": "generated:validation:ambiguous:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "blue tape",
+              "white tape"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "tape"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: blue tape, white tape. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Help me find tape."
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:ambiguous:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "orange pencils",
+              "yellow pencils",
+              "red pencils",
+              "blue pencils"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "pencils"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: orange pencils, yellow pencils, red pencils, blue pencils. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Where do you keep pencils?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:ambiguous:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "Line Draw Arterial Blood Sample Syringe",
+              "1 mL Tuberculin Syringe",
+              "6 mL Syringe"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "syringe"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: Line Draw Arterial Blood Sample Syringe, 1 mL Tuberculin Syringe, 6 mL Syringe. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Which drawer contains a syringe?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:clarification:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "blue tape",
+              "white tape"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "tape"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: blue tape, white tape. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Can you guide me to tape?"
+        },
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [
+              "white tape"
+            ],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find white tape in drawer 1."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "White tape"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:clarification:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "orange pencils",
+              "yellow pencils",
+              "red pencils",
+              "blue pencils"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "pencil"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: orange pencils, yellow pencils, red pencils, blue pencils. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Help me locate a pencil."
+        },
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [
+              "yellow pencils"
+            ],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find yellow pencils in drawer 2."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:clarification:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "Line Draw Arterial Blood Sample Syringe",
+              "1 mL Tuberculin Syringe",
+              "6 mL Syringe"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "syringe"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: Line Draw Arterial Blood Sample Syringe, 1 mL Tuberculin Syringe, 6 mL Syringe. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "I need a syringe."
+        },
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [
+              "Line Draw Arterial Blood Sample Syringe"
+            ],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find Line Draw Arterial Blood Sample Syringe in drawer 3."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Blood sample"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_location:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "LOCATION_MISSING",
+            "event": "ONE_WITHOUT_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "LEDs"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "leds"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "LEDs is in the inventory, but its location is missing."
+          },
+          "errors": [],
+          "expected_action": "LOCATION_MISSING",
+          "passed": true,
+          "utterance": "Where is the LEDs?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_location:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "LOCATION_MISSING",
+            "event": "ONE_WITHOUT_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "Metoprolol"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "metoprolol"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "Metoprolol is in the inventory, but its location is missing."
+          },
+          "errors": [],
+          "expected_action": "LOCATION_MISSING",
+          "passed": true,
+          "utterance": "Where is the Metoprolol?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_location:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "LOCATION_MISSING",
+            "event": "ONE_WITHOUT_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "pliers"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "pliers"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "pliers is in the inventory, but its location is missing."
+          },
+          "errors": [],
+          "expected_action": "LOCATION_MISSING",
+          "passed": true,
+          "utterance": "Where is the pliers?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_object:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "OBJECT_MISSING",
+            "event": "ZERO_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "none",
+            "inventory_similarity": 0.18390866231725184,
+            "matches": [],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "ruler"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "I couldn't find 'ruler' in the inventory."
+          },
+          "errors": [],
+          "expected_action": "OBJECT_MISSING",
+          "passed": true,
+          "utterance": "Where can I find the ruler?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_object:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "OBJECT_MISSING",
+            "event": "ZERO_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "none",
+            "inventory_similarity": 0.20467861638959486,
+            "matches": [],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "wrench"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "I couldn't find 'wrench' in the inventory."
+          },
+          "errors": [],
+          "expected_action": "OBJECT_MISSING",
+          "passed": true,
+          "utterance": "Please locate the wrench."
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:missing_object:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "OBJECT_MISSING",
+            "event": "ZERO_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "none",
+            "inventory_similarity": 0.0,
+            "matches": [],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "clipboard"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "I couldn't find 'clipboard' in the inventory."
+          },
+          "errors": [],
+          "expected_action": "OBJECT_MISSING",
+          "passed": true,
+          "utterance": "Which drawer has the clipboard?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unique:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "wires"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "wires"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find wires in drawer 3."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Please point me to the wires."
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unique:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "book"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "book"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find book in drawer 5."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Which drawer stores the book?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unique:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "Blanket"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "blanket"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find Blanket in drawer 4."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Can you locate the blanket?"
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unsupported:001",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "UNSUPPORTED_REQUEST",
+            "event": "UNRECOGNIZED_QUERY",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "I can only help locate objects in the inventory."
+          },
+          "errors": [],
+          "expected_action": "UNSUPPORTED_REQUEST",
+          "passed": true,
+          "utterance": "Set a timer for five minutes."
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unsupported:002",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "UNSUPPORTED_REQUEST",
+            "event": "UNRECOGNIZED_QUERY",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "I can only help locate objects in the inventory."
+          },
+          "errors": [],
+          "expected_action": "UNSUPPORTED_REQUEST",
+          "passed": true,
+          "utterance": "Translate hello into French."
+        }
+      ]
+    },
+    {
+      "id": "generated:validation:unsupported:003",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "UNSUPPORTED_REQUEST",
+            "event": "UNRECOGNIZED_QUERY",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "I can only help locate objects in the inventory."
+          },
+          "errors": [],
+          "expected_action": "UNSUPPORTED_REQUEST",
+          "passed": true,
+          "utterance": "Write me a poem."
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "suite": "fsm_v1_generated_validation",
+  "turns": 21
+}

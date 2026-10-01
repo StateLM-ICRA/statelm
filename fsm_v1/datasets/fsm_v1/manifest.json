@@ -1,0 +1,198 @@
+{
+  "artifacts": {
+    "generated/test.jsonl": {
+      "bytes": 19781,
+      "records": 18,
+      "scenario_counts": {
+        "ambiguous": 3,
+        "clarification": 3,
+        "missing_location": 3,
+        "missing_object": 3,
+        "unique": 3,
+        "unsupported": 3
+      },
+      "sha256": "d0fd6231ad6682a94e6751fb8bf50cd6ddac645cb02bba18cbc4cd2bb2d0ab80"
+    },
+    "generated/train.jsonl": {
+      "bytes": 39601,
+      "records": 36,
+      "scenario_counts": {
+        "ambiguous": 6,
+        "clarification": 6,
+        "missing_location": 6,
+        "missing_object": 6,
+        "unique": 6,
+        "unsupported": 6
+      },
+      "sha256": "fb60918906e5fba8d7db962431cf7430c1581ed98a97953cdaa076705a5d07df"
+    },
+    "generated/validation.jsonl": {
+      "bytes": 19959,
+      "records": 18,
+      "scenario_counts": {
+        "ambiguous": 3,
+        "clarification": 3,
+        "missing_location": 3,
+        "missing_object": 3,
+        "unique": 3,
+        "unsupported": 3
+      },
+      "sha256": "86c7dfe231a4d9482dee202363786690d5a90d71cbe4bcbe7c0bba4231e59e0b"
+    },
+    "heldout.jsonl": {
+      "bytes": 3632,
+      "records": 4,
+      "sha256": "be36c72ef04221579700292769c60cf9ebf3ea6692c099060cff3e0038c42420"
+    },
+    "heldout/examples.jsonl": {
+      "bytes": 4016,
+      "records": 4,
+      "scenario_counts": {
+        "clarification": 1,
+        "missing_location": 1,
+        "missing_object": 1,
+        "unique": 1
+      },
+      "sha256": "777934bd70d46c1916feb691bcfc68a9c324381a5c443340543299f57fc32b22"
+    },
+    "inventory.json": {
+      "bytes": 22025,
+      "items": 45,
+      "sha256": "dbeaa01e76c62612adafc6a202f6ccf23f8b7e7c6ac01bc4ad31f3f9e55289aa"
+    },
+    "inventory/original_inventory.json": {
+      "bytes": 23304,
+      "items": 45,
+      "sha256": "03d12cf98d3c227783da9df9582f11815e835ae3767b87d86d5000b80662726a"
+    },
+    "original_derived/test.jsonl": {
+      "bytes": 8406,
+      "records": 5,
+      "scenario_counts": {
+        "unique": 5
+      },
+      "sha256": "8c447247fcba91f80b5cb972a71b1f90b3f163a3d4ed7e56bf7740d6eeaeeb07"
+    },
+    "original_derived/train.jsonl": {
+      "bytes": 27064,
+      "records": 16,
+      "scenario_counts": {
+        "unique": 16
+      },
+      "sha256": "b5c0379824b2bc6543c1ab99a76c7fc10bf22d2ed7899bc9cb09a1e433af249f"
+    },
+    "original_derived/validation.jsonl": {
+      "bytes": 6744,
+      "records": 4,
+      "scenario_counts": {
+        "unique": 4
+      },
+      "sha256": "67713c751783d347dc96e20d677e4ba6fc7746de923c043d0b46d5078cce9216"
+    },
+    "similarity/test.jsonl": {
+      "bytes": 4739,
+      "records": 5,
+      "scenario_counts": {
+        "ambiguous": 1,
+        "missing_object": 1,
+        "unique": 2,
+        "unsupported": 1
+      },
+      "sha256": "035ff82ca3e5235bc4ff48db213ac6fa024ea15d6ab45e7aed972aa3160fb66b"
+    },
+    "similarity/validation.jsonl": {
+      "bytes": 4504,
+      "records": 5,
+      "scenario_counts": {
+        "ambiguous": 1,
+        "missing_object": 1,
+        "unique": 2,
+        "unsupported": 1
+      },
+      "sha256": "fee50d780a3405f2389829528cc0f96e8ae4e8251466c7c8a6804145cc124be4"
+    },
+    "test.jsonl": {
+      "bytes": 6758,
+      "record_type_counts": {
+        "query": 20
+      },
+      "records": 20,
+      "sha256": "5be283e81de0725d1769cf79bc5129bf50aacf2e71a3ae10f050019ea1acbb43"
+    },
+    "train.jsonl": {
+      "bytes": 45381,
+      "record_type_counts": {
+        "config": 1,
+        "query": 67,
+        "transition": 76
+      },
+      "records": 144,
+      "sha256": "93408f08395eb7cc975762f542a83641b00bd1f03e3aa88f6558c42c2c856a31"
+    },
+    "validation.jsonl": {
+      "bytes": 6476,
+      "record_type_counts": {
+        "query": 19
+      },
+      "records": 19,
+      "sha256": "5f97bc03b7dd2da1ecbb820e63903f6fdc8f815cfc4b3967af057b1f7fcdc8d0"
+    }
+  },
+  "builder": "scripts/build_fsm_dataset.py",
+  "dataset_name": "fsm_v1",
+  "dataset_version": "1.0.0",
+  "deterministic": true,
+  "heldout_policy": {
+    "compiler_file": "heldout.jsonl",
+    "exact_utterance_leakage_check": "passed",
+    "excluded_from_train_validation_test": true,
+    "record_ids": [
+      "heldout:clarification:tape-blue",
+      "heldout:missing-object:pen",
+      "heldout:unique:sd-card",
+      "heldout:missing-location:multimeter"
+    ],
+    "records": 4
+  },
+  "original_dataset_policy": {
+    "datasets/original": "not read or modified",
+    "only_reviewed_retrieval_cases_extracted": true,
+    "original_participant_rows_generated": false
+  },
+  "schema_version": "fsm-manifest-v1",
+  "source": {
+    "embedded_sha256": {
+      "folds.json": "222e8313c1fc0f5de2935698cdd7a1303e84186b696ee78c1e6097abf895abd9",
+      "inventory.json": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "original_cases.json": "3122ac1c2190aea3ac514c6e1ea73f257c718067b9cc56ee8735620d46847410"
+    },
+    "fold": 0,
+    "notebook": "notebooks/Robot_SLM_Adaptive_FSM_Inventory_Query(AAA).ipynb",
+    "reviewed_cases": 118,
+    "reviewed_inventory_items": 45,
+    "reviewed_retrieval_cases": 25
+  },
+  "split_policy": {
+    "compiler_counts": {
+      "test": 20,
+      "train": 144,
+      "validation": 19
+    },
+    "compiler_train_only": true,
+    "counts": {
+      "test": 5,
+      "train": 16,
+      "validation": 4
+    },
+    "generated_counts": {
+      "test": 18,
+      "train": 36,
+      "validation": 18
+    },
+    "original_derived": "fold 0 participant split",
+    "similarity_evaluation_counts": {
+      "test": 5,
+      "validation": 5
+    }
+  }
+}

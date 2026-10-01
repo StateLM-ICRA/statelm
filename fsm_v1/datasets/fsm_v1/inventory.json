@@ -1,0 +1,709 @@
+{
+  "items": [
+    {
+      "aliases": [
+        "blue tape",
+        "tape",
+        "tapes"
+      ],
+      "attributes": {
+        "color": "blue"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "tape",
+      "id": "lab:blue_tape",
+      "location": "drawer 1",
+      "name": "blue tape",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "blue_tape"
+    },
+    {
+      "aliases": [
+        "white tape",
+        "tape",
+        "tapes"
+      ],
+      "attributes": {
+        "color": "white"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "tape",
+      "id": "lab:white_tape",
+      "location": "drawer 1",
+      "name": "white tape",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "white_tape"
+    },
+    {
+      "aliases": [
+        "sd cards",
+        "sd card"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "sd cards",
+      "id": "lab:sd_cards",
+      "location": "drawer 1",
+      "name": "SD cards",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "sd_cards"
+    },
+    {
+      "aliases": [
+        "leds",
+        "led",
+        "led lights"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "leds",
+      "id": "lab:leds",
+      "location": "drawer 1",
+      "name": "LEDs",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "leds"
+    },
+    {
+      "aliases": [
+        "orange pencils",
+        "orange pencil",
+        "pencil",
+        "pencils"
+      ],
+      "attributes": {
+        "color": "orange"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "pencil",
+      "id": "lab:orange_pencils",
+      "location": "drawer 2",
+      "name": "orange pencils",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "orange_pencils"
+    },
+    {
+      "aliases": [
+        "yellow pencils",
+        "yellow pencil",
+        "pencil",
+        "pencils"
+      ],
+      "attributes": {
+        "color": "yellow"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "pencil",
+      "id": "lab:yellow_pencils",
+      "location": "drawer 2",
+      "name": "yellow pencils",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "yellow_pencils"
+    },
+    {
+      "aliases": [
+        "batteries",
+        "battery"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "batteries",
+      "id": "lab:batteries",
+      "location": "drawer 2",
+      "name": "batteries",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "batteries"
+    },
+    {
+      "aliases": [
+        "measuring tape"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "measuring tape",
+      "id": "lab:measuring_tape",
+      "location": "drawer 2",
+      "name": "measuring tape",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "measuring_tape"
+    },
+    {
+      "aliases": [
+        "red pencils",
+        "red pencil",
+        "pencil",
+        "pencils"
+      ],
+      "attributes": {
+        "color": "red"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "pencil",
+      "id": "lab:red_pencils",
+      "location": "drawer 3",
+      "name": "red pencils",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "red_pencils"
+    },
+    {
+      "aliases": [
+        "wires",
+        "wire"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "wires",
+      "id": "lab:wires",
+      "location": "drawer 3",
+      "name": "wires",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "wires"
+    },
+    {
+      "aliases": [
+        "blue markers",
+        "blue marker"
+      ],
+      "attributes": {
+        "color": "blue"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "marker",
+      "id": "lab:blue_markers",
+      "location": "drawer 3",
+      "name": "blue markers",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "blue_markers"
+    },
+    {
+      "aliases": [
+        "blue pencils",
+        "blue pencil",
+        "pencil",
+        "pencils"
+      ],
+      "attributes": {
+        "color": "blue"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "pencil",
+      "id": "lab:blue_pencils",
+      "location": "drawer 3",
+      "name": "blue pencils",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "blue_pencils"
+    },
+    {
+      "aliases": [
+        "white board cleaner",
+        "whiteboard cleaner"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "white board cleaner",
+      "id": "lab:white_board_cleaner",
+      "location": "drawer 4",
+      "name": "white board cleaner",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "white_board_cleaner"
+    },
+    {
+      "aliases": [
+        "circuit board"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "circuit board",
+      "id": "lab:circuit_board",
+      "location": "drawer 4",
+      "name": "circuit board",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "circuit_board"
+    },
+    {
+      "aliases": [
+        "calculator"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "calculator",
+      "id": "lab:calculator",
+      "location": "drawer 4",
+      "name": "calculator",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "calculator"
+    },
+    {
+      "aliases": [
+        "gloves",
+        "glove"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "gloves",
+      "id": "lab:gloves",
+      "location": "drawer 4",
+      "name": "gloves",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "gloves"
+    },
+    {
+      "aliases": [
+        "playstation controller"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "playstation controller",
+      "id": "lab:playstation_controller",
+      "location": "drawer 4",
+      "name": "PlayStation controller",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "playstation_controller"
+    },
+    {
+      "aliases": [
+        "mouse"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "mouse",
+      "id": "lab:mouse",
+      "location": "drawer 4",
+      "name": "mouse",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "mouse"
+    },
+    {
+      "aliases": [
+        "scissors",
+        "scissor"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "scissors",
+      "id": "lab:scissors",
+      "location": "drawer 5",
+      "name": "scissors",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "scissors"
+    },
+    {
+      "aliases": [
+        "pliers",
+        "plier"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "pliers",
+      "id": "lab:pliers",
+      "location": "drawer 5",
+      "name": "pliers",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "pliers"
+    },
+    {
+      "aliases": [
+        "book"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "book",
+      "id": "lab:book",
+      "location": "drawer 5",
+      "name": "book",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "book"
+    },
+    {
+      "aliases": [
+        "wipes",
+        "wipe"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "wipes",
+      "id": "lab:wipes",
+      "location": "drawer 5",
+      "name": "wipes",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "wipes"
+    },
+    {
+      "aliases": [
+        "orange multimeter",
+        "multimeter"
+      ],
+      "attributes": {
+        "color": "orange"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "multimeter",
+      "id": "lab:orange_multimeter",
+      "location": "drawer 5",
+      "name": "orange multimeter",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "orange_multimeter"
+    },
+    {
+      "aliases": [
+        "hand sanitizer"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "hand sanitizer",
+      "id": "lab:hand_sanitizer",
+      "location": "drawer 5",
+      "name": "hand sanitizer",
+      "setting": "lab",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "hand_sanitizer"
+    },
+    {
+      "aliases": [
+        "phenylephrine hci"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "phenylephrine hci",
+      "id": "hospital:phenylephrine_hci",
+      "location": "drawer 1",
+      "name": "Phenylephrine HCI",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "phenylephrine_hci"
+    },
+    {
+      "aliases": [
+        "epinephrine injection",
+        "epinephrine"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "epinephrine injection",
+      "id": "hospital:epinephrine_injection",
+      "location": "drawer 1",
+      "name": "Epinephrine Injection",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "epinephrine_injection"
+    },
+    {
+      "aliases": [
+        "metoprolol"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "metoprolol",
+      "id": "hospital:metoprolol",
+      "location": "drawer 1",
+      "name": "Metoprolol",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "metoprolol"
+    },
+    {
+      "aliases": [
+        "naloxone"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "naloxone",
+      "id": "hospital:naloxone",
+      "location": "drawer 1",
+      "name": "Naloxone",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "naloxone"
+    },
+    {
+      "aliases": [
+        "nitroglycerin"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "nitroglycerin",
+      "id": "hospital:nitroglycerin",
+      "location": "drawer 1",
+      "name": "Nitroglycerin",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "nitroglycerin"
+    },
+    {
+      "aliases": [
+        "norepinephrine"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "norepinephrine",
+      "id": "hospital:norepinephrine",
+      "location": "drawer 1",
+      "name": "Norepinephrine",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "norepinephrine"
+    },
+    {
+      "aliases": [
+        "adenosine"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "adenosine",
+      "id": "hospital:adenosine",
+      "location": "drawer 1",
+      "name": "Adenosine",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "adenosine"
+    },
+    {
+      "aliases": [
+        "sodium bicarbonate injection usp",
+        "sodium bicarbonate"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "sodium bicarbonate injection usp",
+      "id": "hospital:sodium_bicarbonate_injection_usp",
+      "location": "drawer 2",
+      "name": "Sodium Bicarbonate Injection USP",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "sodium_bicarbonate_injection_usp"
+    },
+    {
+      "aliases": [
+        "lidocaine"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "lidocaine",
+      "id": "hospital:lidocaine",
+      "location": "drawer 2",
+      "name": "Lidocaine",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "lidocaine"
+    },
+    {
+      "aliases": [
+        "50% dextrose injection",
+        "dextrose"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "50% dextrose injection",
+      "id": "hospital:50%_dextrose_injection",
+      "location": "drawer 2",
+      "name": "50% Dextrose Injection",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "50%_dextrose_injection"
+    },
+    {
+      "aliases": [
+        "10% calcium chloride injection",
+        "calcium chloride"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "10% calcium chloride injection",
+      "id": "hospital:10%_calcium_chloride_injection",
+      "location": "drawer 2",
+      "name": "10% Calcium Chloride Injection",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "10%_calcium_chloride_injection"
+    },
+    {
+      "aliases": [
+        "razor"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "razor",
+      "id": "hospital:razor",
+      "location": "drawer 3",
+      "name": "Razor",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "razor"
+    },
+    {
+      "aliases": [
+        "medical tape",
+        "tape",
+        "tapes"
+      ],
+      "attributes": {
+        "type": "medical"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "tape",
+      "id": "hospital:medical_tape",
+      "location": "drawer 3",
+      "name": "Medical Tape",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "medical_tape"
+    },
+    {
+      "aliases": [
+        "surgical gloves",
+        "surgical glove"
+      ],
+      "attributes": {
+        "type": "surgical"
+      },
+      "evidence_status": "table_and_success_transcript",
+      "family": "gloves",
+      "id": "hospital:surgical_gloves",
+      "location": "drawer 3",
+      "name": "Surgical Gloves",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "surgical_gloves"
+    },
+    {
+      "aliases": [
+        "line draw arterial blood sample syringe",
+        "blood sample syringe",
+        "arterial blood sample syringe",
+        "syringe",
+        "syringes"
+      ],
+      "attributes": {
+        "type": "blood sample"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "syringe",
+      "id": "hospital:line_draw_arterial_blood_sample_syringe",
+      "location": "drawer 3",
+      "name": "Line Draw Arterial Blood Sample Syringe",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "line_draw_arterial_blood_sample_syringe"
+    },
+    {
+      "aliases": [
+        "blanket"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "blanket",
+      "id": "hospital:blanket",
+      "location": "drawer 4",
+      "name": "Blanket",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "blanket"
+    },
+    {
+      "aliases": [
+        "scissors"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "scissors",
+      "id": "hospital:scissors",
+      "location": "drawer 4",
+      "name": "Scissors",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "scissors"
+    },
+    {
+      "aliases": [
+        "face masks",
+        "face mask"
+      ],
+      "attributes": {},
+      "evidence_status": "table_and_success_transcript",
+      "family": "mask",
+      "id": "hospital:face_masks",
+      "location": "drawer 4",
+      "name": "Face Masks",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "face_masks"
+    },
+    {
+      "aliases": [
+        "1 ml tuberculin syringe",
+        "tuberculin syringe",
+        "syringe",
+        "syringes"
+      ],
+      "attributes": {
+        "size": "1 ml",
+        "type": "tuberculin"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "syringe",
+      "id": "hospital:1_ml_tuberculin_syringe",
+      "location": "drawer 5",
+      "name": "1 mL Tuberculin Syringe",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "1_ml_tuberculin_syringe"
+    },
+    {
+      "aliases": [
+        "6 ml syringe",
+        "syringe",
+        "syringes"
+      ],
+      "attributes": {
+        "size": "6 ml"
+      },
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "syringe",
+      "id": "hospital:6_ml_syringe",
+      "location": "drawer 5",
+      "name": "6 mL Syringe",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "6_ml_syringe"
+    },
+    {
+      "aliases": [
+        "500 ml iv bag",
+        "iv bag"
+      ],
+      "attributes": {},
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "family": "500 ml iv bag",
+      "id": "hospital:500_ml_iv_bag",
+      "location": "drawer 5",
+      "name": "500 mL IV Bag",
+      "setting": "hospital",
+      "source_inventory_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+      "source_item_id": "500_ml_iv_bag"
+    }
+  ],
+  "schema_version": "fsm-runtime-inventory-v1",
+  "source_sha256": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b"
+}

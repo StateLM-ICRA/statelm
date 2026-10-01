@@ -1,0 +1,153 @@
+{
+  "cases": 5,
+  "failed_turns": 0,
+  "passed_cases": 5,
+  "passed_turns": 5,
+  "results": [
+    {
+      "id": "similarity:test:plural-question",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "wires"
+            ],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.8330323920742125,
+            "slots": {
+              "object": "wires"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find wires in drawer 3."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Where are wires?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:test:item-prefix",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "SD cards"
+            ],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.8376080975205008,
+            "slots": {
+              "object": "sd card"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find SD cards in drawer 1."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Where is item SD card?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:test:ambiguous-plural",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "orange pencils",
+              "yellow pencils",
+              "red pencils",
+              "blue pencils"
+            ],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.8376080975205008,
+            "slots": {
+              "object": "pencils"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: orange pencils, yellow pencils, red pencils, blue pencils. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Where is item pencils?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:test:missing-object",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "OBJECT_MISSING",
+            "event": "ZERO_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "none",
+            "inventory_similarity": 0.15169863132015282,
+            "matches": [],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.8852690354148706,
+            "slots": {
+              "object": "stapler for me"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "I couldn't find 'stapler for me' in the inventory."
+          },
+          "errors": [],
+          "expected_action": "OBJECT_MISSING",
+          "passed": true,
+          "utterance": "Please locate stapler for me."
+        }
+      ]
+    },
+    {
+      "id": "similarity:test:unsupported",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "UNSUPPORTED_REQUEST",
+            "event": "UNRECOGNIZED_QUERY",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "I can only help locate objects in the inventory."
+          },
+          "errors": [],
+          "expected_action": "UNSUPPORTED_REQUEST",
+          "passed": true,
+          "utterance": "Book me a flight."
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "suite": "fsm_v1_similarity_test",
+  "turns": 5
+}

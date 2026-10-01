@@ -1,0 +1,505 @@
+{
+ "lab": [
+  {
+   "id": "blue_tape",
+   "name": "blue tape",
+   "family": "tape",
+   "attributes": {
+    "color": "blue"
+   },
+   "aliases": [
+    "blue tape"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "white_tape",
+   "name": "white tape",
+   "family": "tape",
+   "attributes": {
+    "color": "white"
+   },
+   "aliases": [
+    "white tape"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "sd_cards",
+   "name": "SD cards",
+   "family": "sd_cards",
+   "attributes": {},
+   "aliases": [
+    "sd cards",
+    "sd card"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "leds",
+   "name": "LEDs",
+   "family": "leds",
+   "attributes": {},
+   "aliases": [
+    "leds",
+    "led",
+    "led lights"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "orange_pencils",
+   "name": "orange pencils",
+   "family": "pencil",
+   "attributes": {
+    "color": "orange"
+   },
+   "aliases": [
+    "orange pencils",
+    "orange pencil"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "yellow_pencils",
+   "name": "yellow pencils",
+   "family": "pencil",
+   "attributes": {
+    "color": "yellow"
+   },
+   "aliases": [
+    "yellow pencils",
+    "yellow pencil"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "batteries",
+   "name": "batteries",
+   "family": "batteries",
+   "attributes": {},
+   "aliases": [
+    "batteries",
+    "battery"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "measuring_tape",
+   "name": "measuring tape",
+   "family": "measuring_tape",
+   "attributes": {},
+   "aliases": [
+    "measuring tape"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "red_pencils",
+   "name": "red pencils",
+   "family": "pencil",
+   "attributes": {
+    "color": "red"
+   },
+   "aliases": [
+    "red pencils",
+    "red pencil"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "wires",
+   "name": "wires",
+   "family": "wires",
+   "attributes": {},
+   "aliases": [
+    "wires",
+    "wire"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "blue_markers",
+   "name": "blue markers",
+   "family": "marker",
+   "attributes": {
+    "color": "blue"
+   },
+   "aliases": [
+    "blue markers",
+    "blue marker"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "blue_pencils",
+   "name": "blue pencils",
+   "family": "pencil",
+   "attributes": {
+    "color": "blue"
+   },
+   "aliases": [
+    "blue pencils",
+    "blue pencil"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "white_board_cleaner",
+   "name": "white board cleaner",
+   "family": "white_board_cleaner",
+   "attributes": {},
+   "aliases": [
+    "white board cleaner",
+    "whiteboard cleaner"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "circuit_board",
+   "name": "circuit board",
+   "family": "circuit_board",
+   "attributes": {},
+   "aliases": [
+    "circuit board"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "calculator",
+   "name": "calculator",
+   "family": "calculator",
+   "attributes": {},
+   "aliases": [
+    "calculator"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "gloves",
+   "name": "gloves",
+   "family": "gloves",
+   "attributes": {},
+   "aliases": [
+    "gloves",
+    "glove"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "playstation_controller",
+   "name": "PlayStation controller",
+   "family": "playstation_controller",
+   "attributes": {},
+   "aliases": [
+    "playstation controller"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "mouse",
+   "name": "mouse",
+   "family": "mouse",
+   "attributes": {},
+   "aliases": [
+    "mouse"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "scissors",
+   "name": "scissors",
+   "family": "scissors",
+   "attributes": {},
+   "aliases": [
+    "scissors",
+    "scissor"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "pliers",
+   "name": "pliers",
+   "family": "pliers",
+   "attributes": {},
+   "aliases": [
+    "pliers",
+    "plier"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "book",
+   "name": "book",
+   "family": "book",
+   "attributes": {},
+   "aliases": [
+    "book"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "wipes",
+   "name": "wipes",
+   "family": "wipes",
+   "attributes": {},
+   "aliases": [
+    "wipes",
+    "wipe"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "orange_multimeter",
+   "name": "orange multimeter",
+   "family": "multimeter",
+   "attributes": {
+    "color": "orange"
+   },
+   "aliases": [
+    "orange multimeter",
+    "multimeter"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "hand_sanitizer",
+   "name": "hand sanitizer",
+   "family": "hand_sanitizer",
+   "attributes": {},
+   "aliases": [
+    "hand sanitizer"
+   ],
+   "drawer": "drawer 5"
+  }
+ ],
+ "hospital": [
+  {
+   "id": "phenylephrine_hci",
+   "name": "Phenylephrine HCI",
+   "family": "phenylephrine_hci",
+   "attributes": {},
+   "aliases": [
+    "phenylephrine hci"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "epinephrine_injection",
+   "name": "Epinephrine Injection",
+   "family": "epinephrine_injection",
+   "attributes": {},
+   "aliases": [
+    "epinephrine injection",
+    "epinephrine"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "metoprolol",
+   "name": "Metoprolol",
+   "family": "metoprolol",
+   "attributes": {},
+   "aliases": [
+    "metoprolol"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "naloxone",
+   "name": "Naloxone",
+   "family": "naloxone",
+   "attributes": {},
+   "aliases": [
+    "naloxone"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "nitroglycerin",
+   "name": "Nitroglycerin",
+   "family": "nitroglycerin",
+   "attributes": {},
+   "aliases": [
+    "nitroglycerin"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "norepinephrine",
+   "name": "Norepinephrine",
+   "family": "norepinephrine",
+   "attributes": {},
+   "aliases": [
+    "norepinephrine"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "adenosine",
+   "name": "Adenosine",
+   "family": "adenosine",
+   "attributes": {},
+   "aliases": [
+    "adenosine"
+   ],
+   "drawer": "drawer 1"
+  },
+  {
+   "id": "sodium_bicarbonate_injection_usp",
+   "name": "Sodium Bicarbonate Injection USP",
+   "family": "sodium_bicarbonate_injection_usp",
+   "attributes": {},
+   "aliases": [
+    "sodium bicarbonate injection usp",
+    "sodium bicarbonate"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "lidocaine",
+   "name": "Lidocaine",
+   "family": "lidocaine",
+   "attributes": {},
+   "aliases": [
+    "lidocaine"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "50%_dextrose_injection",
+   "name": "50% Dextrose Injection",
+   "family": "50%_dextrose_injection",
+   "attributes": {},
+   "aliases": [
+    "50% dextrose injection",
+    "dextrose"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "10%_calcium_chloride_injection",
+   "name": "10% Calcium Chloride Injection",
+   "family": "10%_calcium_chloride_injection",
+   "attributes": {},
+   "aliases": [
+    "10% calcium chloride injection",
+    "calcium chloride"
+   ],
+   "drawer": "drawer 2"
+  },
+  {
+   "id": "razor",
+   "name": "Razor",
+   "family": "razor",
+   "attributes": {},
+   "aliases": [
+    "razor"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "medical_tape",
+   "name": "Medical Tape",
+   "family": "medical_tape",
+   "attributes": {},
+   "aliases": [
+    "medical tape"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "surgical_gloves",
+   "name": "Surgical Gloves",
+   "family": "surgical_gloves",
+   "attributes": {},
+   "aliases": [
+    "surgical gloves",
+    "surgical glove"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "line_draw_arterial_blood_sample_syringe",
+   "name": "Line Draw Arterial Blood Sample Syringe",
+   "family": "syringe",
+   "attributes": {
+    "type": "arterial blood sample"
+   },
+   "aliases": [
+    "line draw arterial blood sample syringe",
+    "blood sample syringe",
+    "arterial blood sample syringe"
+   ],
+   "drawer": "drawer 3"
+  },
+  {
+   "id": "blanket",
+   "name": "Blanket",
+   "family": "blanket",
+   "attributes": {},
+   "aliases": [
+    "blanket"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "scissors",
+   "name": "Scissors",
+   "family": "scissors",
+   "attributes": {},
+   "aliases": [
+    "scissors"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "face_masks",
+   "name": "Face Masks",
+   "family": "face_masks",
+   "attributes": {},
+   "aliases": [
+    "face masks",
+    "face mask"
+   ],
+   "drawer": "drawer 4"
+  },
+  {
+   "id": "1_ml_tuberculin_syringe",
+   "name": "1 mL Tuberculin Syringe",
+   "family": "syringe",
+   "attributes": {
+    "volume": "1 mL",
+    "type": "tuberculin"
+   },
+   "aliases": [
+    "1 ml tuberculin syringe",
+    "tuberculin syringe"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "6_ml_syringe",
+   "name": "6 mL Syringe",
+   "family": "syringe",
+   "attributes": {
+    "volume": "6 mL"
+   },
+   "aliases": [
+    "6 ml syringe"
+   ],
+   "drawer": "drawer 5"
+  },
+  {
+   "id": "500_ml_iv_bag",
+   "name": "500 mL IV Bag",
+   "family": "500_ml_iv_bag",
+   "attributes": {},
+   "aliases": [
+    "500 ml iv bag",
+    "iv bag"
+   ],
+   "drawer": "drawer 5"
+  }
+ ]
+}

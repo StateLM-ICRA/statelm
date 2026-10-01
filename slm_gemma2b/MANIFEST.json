@@ -1,0 +1,21 @@
+{
+  "README.md": "464e3e5c6449ac3ea1135edc5032c647dc2bb8bd0569c3786aa219a458d510cb",
+  "config.json": "7617a6255e5685f5ea0b811b5fe5b4656d2f485a47b0d09a2888f0ff1a22828f",
+  "data/folds.json": "222e8313c1fc0f5de2935698cdd7a1303e84186b696ee78c1e6097abf895abd9",
+  "data/inventory.json": "b956b524734780cfeb7e0d4e0dd1889ca6900ea138412902ca2f0df4a5af3b3e",
+  "data/original_cases.json": "3122ac1c2190aea3ac514c6e1ea73f257c718067b9cc56ee8735620d46847410",
+  "data/source_review.json": "963155c679b2ea31d9094e0cb1ad048e56b05e4af8e944014c05bb1988be26b7",
+  "requirements-colab.txt": "a4a3e2d839f0f1533dbdec05baf2871494c3547c9b26d37d685628ded789b162",
+  "statelm/__init__.py": "b9b7fcd9909b4e65787efbb64d18f48f72a491e0b8a75742b53e43b0ed1cab4b",
+  "statelm/__main__.py": "e6726699872052dff5e1097619092f39b24ae9c9d00dcf3db9fdd4b386fcb576",
+  "statelm/core.py": "9d424652d7bac78b3fbbc45b2e0560427c70c95001f6b7f58c1ff7798f180271",
+  "statelm/data.py": "6e1e1863c921372eab90ac295ed89a67a6f162571db2b179c965534cb555f1ee",
+  "statelm/evaluation.py": "0c16035f3dff4a2b23fcbe0043f986bf243f3977be9e2858e8ca6963c704597d",
+  "statelm/notebook_ui.py": "9db777e16bd0a4e064e35b871eb6833af11546dbbae5ca081815e1cac8660b10",
+  "statelm/playground.py": "cc83b98d19361667bf56859ab2b5db63ce6ce522e24b047600b7f66c0cc351ab",
+  "statelm/slm.py": "785c74ae67f07541363f7f5c2a8774f2cbec6e1eb2820dc5478171452a3365f5",
+  "tests/test_core.py": "8e99b669c467db7ca71696100343fa5186b1aef9f32bc3f8c221a6e331eba8ad",
+  "tests/test_neural.py": "2f40d7bc1cf00216614ee28d65a03171959a1b863396bf470d46f77fb1d50e69",
+  "tests/test_notebook_ui.py": "43874ffe84a21cd9c1f7312b1eac5316507b02e5c07b0926d29b645235dac28a",
+  "tests/test_revision.py": "6692fb42b38b961821caa95f8d416c498795c3af239ba6ad83745da626511403"
+}

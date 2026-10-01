@@ -1,0 +1,127 @@
+{
+  "cases": 4,
+  "failed_turns": 0,
+  "passed_cases": 4,
+  "passed_turns": 4,
+  "results": [
+    {
+      "id": "original-derived:participant_16_trial_5_start_139:retrieval",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "measuring tape"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "measuring tape"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find measuring tape in drawer 2."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Could you please find a measuring tape?"
+        }
+      ]
+    },
+    {
+      "id": "original-derived:participant_1_trial_3_start_60:retrieval",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "measuring tape"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "measuring tape"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find measuring tape in drawer 2."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "measuring tape? Lead me to the measuring tape please."
+        }
+      ]
+    },
+    {
+      "id": "original-derived:participant_29_trial_3_start_66:retrieval",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "scissors"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "scissors"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find scissors in drawer 5."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Okay, scissors. Where are the scissors?"
+        }
+      ]
+    },
+    {
+      "id": "original-derived:participant_40_trial_1_start_0:retrieval",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "SD cards"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "sd cards"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find SD cards in drawer 1."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Where are the SD cards?"
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "suite": "fsm_v1_original_derived_validation",
+  "turns": 4
+}

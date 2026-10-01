@@ -1,0 +1,803 @@
+{
+  "source": "StateLM PDF Table 2, checked against original success transcripts",
+  "items": [
+    {
+      "setting": "lab",
+      "item_id": "blue_tape",
+      "name": "blue tape",
+      "drawer": 1,
+      "aliases": [
+        "blue tape"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_005",
+          "drawer": 1,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0001"
+        },
+        {
+          "sample_id": "sample_030",
+          "drawer": 1,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0002"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "white_tape",
+      "name": "white tape",
+      "drawer": 1,
+      "aliases": [
+        "white tape"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_146",
+          "drawer": 1,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0003"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "sd_cards",
+      "name": "SD cards",
+      "drawer": 1,
+      "aliases": [
+        "sd cards",
+        "sd card"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_064",
+          "drawer": 1,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0004"
+        },
+        {
+          "sample_id": "sample_205",
+          "drawer": 1,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0005"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "leds",
+      "name": "LEDs",
+      "drawer": 1,
+      "aliases": [
+        "leds",
+        "led",
+        "led lights"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "orange_pencils",
+      "name": "orange pencils",
+      "drawer": 2,
+      "aliases": [
+        "orange pencils",
+        "orange pencil"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "yellow_pencils",
+      "name": "yellow pencils",
+      "drawer": 2,
+      "aliases": [
+        "yellow pencils",
+        "yellow pencil"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "batteries",
+      "name": "batteries",
+      "drawer": 2,
+      "aliases": [
+        "batteries",
+        "battery"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "measuring_tape",
+      "name": "measuring tape",
+      "drawer": 2,
+      "aliases": [
+        "measuring tape"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_003",
+          "drawer": 2,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0006"
+        },
+        {
+          "sample_id": "sample_088",
+          "drawer": 2,
+          "interpretation": "ASR_homophone_normalized",
+          "note": "drawer too interpreted as drawer two",
+          "transcript_url": "anonymous-source:0007"
+        },
+        {
+          "sample_id": "sample_122",
+          "drawer": 2,
+          "interpretation": "ASR_homophone_normalized",
+          "note": "drawer too interpreted as drawer two",
+          "transcript_url": "anonymous-source:0008"
+        },
+        {
+          "sample_id": "sample_162",
+          "drawer": 2,
+          "interpretation": "ASR_homophone_normalized",
+          "note": "drawer too interpreted as drawer two",
+          "transcript_url": "anonymous-source:0009"
+        },
+        {
+          "sample_id": "sample_170",
+          "drawer": 2,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0010"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "red_pencils",
+      "name": "red pencils",
+      "drawer": 3,
+      "aliases": [
+        "red pencils",
+        "red pencil"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "wires",
+      "name": "wires",
+      "drawer": 3,
+      "aliases": [
+        "wires",
+        "wire"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_212",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0011"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "blue_markers",
+      "name": "blue markers",
+      "drawer": 3,
+      "aliases": [
+        "blue markers",
+        "blue marker"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_057",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0012"
+        },
+        {
+          "sample_id": "sample_166",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0013"
+        },
+        {
+          "sample_id": "sample_182",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0014"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "blue_pencils",
+      "name": "blue pencils",
+      "drawer": 3,
+      "aliases": [
+        "blue pencils",
+        "blue pencil"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_126",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0015"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "white_board_cleaner",
+      "name": "white board cleaner",
+      "drawer": 4,
+      "aliases": [
+        "white board cleaner",
+        "whiteboard cleaner"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "circuit_board",
+      "name": "circuit board",
+      "drawer": 4,
+      "aliases": [
+        "circuit board"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_105",
+          "drawer": 4,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0016"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "calculator",
+      "name": "calculator",
+      "drawer": 4,
+      "aliases": [
+        "calculator"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "gloves",
+      "name": "gloves",
+      "drawer": 4,
+      "aliases": [
+        "gloves",
+        "glove"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "playstation_controller",
+      "name": "PlayStation controller",
+      "drawer": 4,
+      "aliases": [
+        "playstation controller"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_117",
+          "drawer": 4,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0017"
+        },
+        {
+          "sample_id": "sample_140",
+          "drawer": 4,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0018"
+        },
+        {
+          "sample_id": "sample_176",
+          "drawer": 4,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0019"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "mouse",
+      "name": "mouse",
+      "drawer": 4,
+      "aliases": [
+        "mouse"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "scissors",
+      "name": "scissors",
+      "drawer": 5,
+      "aliases": [
+        "scissors",
+        "scissor"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_027",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0020"
+        },
+        {
+          "sample_id": "sample_038",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0021"
+        },
+        {
+          "sample_id": "sample_109",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0022"
+        },
+        {
+          "sample_id": "sample_149",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0023"
+        },
+        {
+          "sample_id": "sample_200",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0024"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "pliers",
+      "name": "pliers",
+      "drawer": 5,
+      "aliases": [
+        "pliers",
+        "plier"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "book",
+      "name": "book",
+      "drawer": 5,
+      "aliases": [
+        "book"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_096",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0025"
+        }
+      ]
+    },
+    {
+      "setting": "lab",
+      "item_id": "wipes",
+      "name": "wipes",
+      "drawer": 5,
+      "aliases": [
+        "wipes",
+        "wipe"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "orange_multimeter",
+      "name": "orange multimeter",
+      "drawer": 5,
+      "aliases": [
+        "orange multimeter",
+        "multimeter"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "lab",
+      "item_id": "hand_sanitizer",
+      "name": "hand sanitizer",
+      "drawer": 5,
+      "aliases": [
+        "hand sanitizer"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_063",
+          "drawer": 5,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0026"
+        }
+      ]
+    },
+    {
+      "setting": "hospital",
+      "item_id": "phenylephrine_hci",
+      "name": "Phenylephrine HCI",
+      "drawer": 1,
+      "aliases": [
+        "phenylephrine hci"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "epinephrine_injection",
+      "name": "Epinephrine Injection",
+      "drawer": 1,
+      "aliases": [
+        "epinephrine injection",
+        "epinephrine"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "metoprolol",
+      "name": "Metoprolol",
+      "drawer": 1,
+      "aliases": [
+        "metoprolol"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "naloxone",
+      "name": "Naloxone",
+      "drawer": 1,
+      "aliases": [
+        "naloxone"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "nitroglycerin",
+      "name": "Nitroglycerin",
+      "drawer": 1,
+      "aliases": [
+        "nitroglycerin"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "norepinephrine",
+      "name": "Norepinephrine",
+      "drawer": 1,
+      "aliases": [
+        "norepinephrine"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "adenosine",
+      "name": "Adenosine",
+      "drawer": 1,
+      "aliases": [
+        "adenosine"
+      ],
+      "reference_drawer": 1,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "sodium_bicarbonate_injection_usp",
+      "name": "Sodium Bicarbonate Injection USP",
+      "drawer": 2,
+      "aliases": [
+        "sodium bicarbonate injection usp",
+        "sodium bicarbonate"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "lidocaine",
+      "name": "Lidocaine",
+      "drawer": 2,
+      "aliases": [
+        "lidocaine"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "50%_dextrose_injection",
+      "name": "50% Dextrose Injection",
+      "drawer": 2,
+      "aliases": [
+        "50% dextrose injection",
+        "dextrose"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "10%_calcium_chloride_injection",
+      "name": "10% Calcium Chloride Injection",
+      "drawer": 2,
+      "aliases": [
+        "10% calcium chloride injection",
+        "calcium chloride"
+      ],
+      "reference_drawer": 2,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "razor",
+      "name": "Razor",
+      "drawer": 3,
+      "aliases": [
+        "razor"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "medical_tape",
+      "name": "Medical Tape",
+      "drawer": 3,
+      "aliases": [
+        "medical tape"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_043",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0027"
+        },
+        {
+          "sample_id": "sample_071",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0028"
+        },
+        {
+          "sample_id": "sample_083",
+          "drawer": 3,
+          "interpretation": "ASR_homophone_normalized",
+          "note": "door 3 interpreted as drawer 3",
+          "transcript_url": "anonymous-source:0029"
+        }
+      ]
+    },
+    {
+      "setting": "hospital",
+      "item_id": "surgical_gloves",
+      "name": "Surgical Gloves",
+      "drawer": 3,
+      "aliases": [
+        "surgical gloves",
+        "surgical glove"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_024",
+          "drawer": 3,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0030"
+        }
+      ]
+    },
+    {
+      "setting": "hospital",
+      "item_id": "line_draw_arterial_blood_sample_syringe",
+      "name": "Line Draw Arterial Blood Sample Syringe",
+      "drawer": 3,
+      "aliases": [
+        "line draw arterial blood sample syringe",
+        "blood sample syringe",
+        "arterial blood sample syringe"
+      ],
+      "reference_drawer": 3,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "blanket",
+      "name": "Blanket",
+      "drawer": 4,
+      "aliases": [
+        "blanket"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "scissors",
+      "name": "Scissors",
+      "drawer": 4,
+      "aliases": [
+        "scissors"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "face_masks",
+      "name": "Face Masks",
+      "drawer": 4,
+      "aliases": [
+        "face masks",
+        "face mask"
+      ],
+      "reference_drawer": 4,
+      "evidence_status": "table_and_success_transcript",
+      "success_transcript_evidence": [
+        {
+          "sample_id": "sample_019",
+          "drawer": 4,
+          "interpretation": "clear",
+          "note": "",
+          "transcript_url": "anonymous-source:0031"
+        }
+      ]
+    },
+    {
+      "setting": "hospital",
+      "item_id": "1_ml_tuberculin_syringe",
+      "name": "1 mL Tuberculin Syringe",
+      "drawer": 5,
+      "aliases": [
+        "1 ml tuberculin syringe",
+        "tuberculin syringe"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "6_ml_syringe",
+      "name": "6 mL Syringe",
+      "drawer": 5,
+      "aliases": [
+        "6 ml syringe"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    },
+    {
+      "setting": "hospital",
+      "item_id": "500_ml_iv_bag",
+      "name": "500 mL IV Bag",
+      "drawer": 5,
+      "aliases": [
+        "500 ml iv bag",
+        "iv bag"
+      ],
+      "reference_drawer": 5,
+      "evidence_status": "table_only_no_clear_success_statement_in_this_audit",
+      "success_transcript_evidence": []
+    }
+  ]
+}

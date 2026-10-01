@@ -1,0 +1,151 @@
+{
+  "cases": 5,
+  "failed_turns": 0,
+  "passed_cases": 5,
+  "passed_turns": 5,
+  "results": [
+    {
+      "id": "similarity:validation:article-omission",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "SD cards"
+            ],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.7801136900077894,
+            "slots": {
+              "object": "sd card"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find SD cards in drawer 1."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Where is SD card?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:validation:entity-typo",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "RETURN_LOCATION",
+            "event": "ONE_WITH_LOCATION",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "cosine_similarity",
+            "inventory_similarity": 0.5598437687598511,
+            "matches": [
+              "SD cards"
+            ],
+            "query_match_method": "exact",
+            "query_similarity": 1.0,
+            "slots": {
+              "object": "sd crad"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "You can find SD cards in drawer 1."
+          },
+          "errors": [],
+          "expected_action": "RETURN_LOCATION",
+          "passed": true,
+          "utterance": "Where is the sd crad?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:validation:ambiguous-family",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "ASK_WHICH_ONE",
+            "event": "MULTIPLE_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "exact",
+            "inventory_similarity": 1.0,
+            "matches": [
+              "blue tape",
+              "white tape"
+            ],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.7801136900077894,
+            "slots": {
+              "object": "tape"
+            },
+            "state": "WAITING_FOR_CLARIFICATION",
+            "text": "I found more than one match: blue tape, white tape. Which one do you mean?"
+          },
+          "errors": [],
+          "expected_action": "ASK_WHICH_ONE",
+          "passed": true,
+          "utterance": "Where is tape?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:validation:missing-object",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "OBJECT_MISSING",
+            "event": "ZERO_MATCHES",
+            "intent": "FIND_LOCATION",
+            "inventory_match_method": "none",
+            "inventory_similarity": 0.0,
+            "matches": [],
+            "query_match_method": "cosine_similarity",
+            "query_similarity": 0.8376080975205008,
+            "slots": {
+              "object": "x"
+            },
+            "state": "WAITING_FOR_QUERY",
+            "text": "I couldn't find 'x' in the inventory."
+          },
+          "errors": [],
+          "expected_action": "OBJECT_MISSING",
+          "passed": true,
+          "utterance": "Where is item x?"
+        }
+      ]
+    },
+    {
+      "id": "similarity:validation:unsupported",
+      "passed": true,
+      "turns": [
+        {
+          "actual": {
+            "action": "UNSUPPORTED_REQUEST",
+            "event": "UNRECOGNIZED_QUERY",
+            "intent": null,
+            "inventory_match_method": null,
+            "inventory_similarity": null,
+            "matches": [],
+            "query_match_method": null,
+            "query_similarity": null,
+            "slots": {},
+            "state": "WAITING_FOR_QUERY",
+            "text": "I can only help locate objects in the inventory."
+          },
+          "errors": [],
+          "expected_action": "UNSUPPORTED_REQUEST",
+          "passed": true,
+          "utterance": "What is the capital of France?"
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "suite": "fsm_v1_similarity_validation",
+  "turns": 5
+}

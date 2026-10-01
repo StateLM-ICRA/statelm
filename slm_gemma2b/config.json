@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-2-2b-it",
+  "revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+  "max_length": 2048,
+  "lora_r": 8,
+  "epochs": 12,
+  "min_epochs": 4,
+  "early_stopping_patience": 3,
+  "learning_rate": 0.00002,
+  "anchor_weight": 0.2,
+  "gradient_accumulation_steps": 4,
+  "split_seed": 42,
+  "synthetic_training": false,
+  "test_n_default": false,
+  "experiment_version": "4.1",
+  "evaluation_status": "development comparison; these participants were already evaluated in v4"
+}

@@ -1,0 +1,43 @@
+{
+  "turns": 222,
+  "fsm_share_overall": 0.6036036036036037,
+  "fsm_share_last_window": 0.72,
+  "fsm_share_by_third": [
+    0.4594594594594595,
+    0.7027027027027027,
+    0.6486486486486487
+  ],
+  "fsm_share_by_kind": {
+    "request": 0.7634408602150538,
+    "review": 0.6774193548387096,
+    "augmented": 0.0
+  },
+  "fsm_share_by_slm_split": {
+    "augmented": 0.0,
+    "slm_test": 0.6470588235294118,
+    "slm_train": 0.7589285714285714,
+    "slm_validation": 0.675
+  },
+  "served_action_ok_by_slm_split": {
+    "augmented": 0.9166666666666666,
+    "slm_test": 0.8387096774193549,
+    "slm_train": 0.8598130841121495,
+    "slm_validation": 0.8648648648648649
+  },
+  "augmented_action_ok_by_category": {
+    "absent": 0.9166666666666666,
+    "clarify": 1.0,
+    "irrelevant": 0.8333333333333334
+  },
+  "fsm_served_exact_agreement_with_checked_slm": 0.7238805970149254,
+  "fsm_served_exact_agreement_with_raw_slm": 0.7164179104477612,
+  "fsm_served_task_agreement_item_and_action": 0.8208955223880597,
+  "served_action_matches_reference": 0.8672985781990521,
+  "served_item_matches_reference": 1.0,
+  "review_failure_type_correct_served": 0.4838709677419355,
+  "review_failure_type_correct_slm": 0.7849462365591398,
+  "review_strategy_in_preferences_served": 0.3548387096774194,
+  "guard_repairs_on_slm_path": 41,
+  "wrong_item_served": 0,
+  "errors": 0
+}

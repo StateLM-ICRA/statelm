@@ -1,0 +1,36 @@
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Can I get the tape?", "expected_family": "tape", "source": "augmented_v1_llm_written", "id": "aug_001"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Where are the pencils?", "expected_family": "pencil", "source": "augmented_v1_llm_written", "id": "aug_002"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Robot, where's the tape?", "expected_family": "tape", "source": "augmented_v1_llm_written", "id": "aug_003"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "I need pencils.", "expected_family": "pencil", "source": "augmented_v1_llm_written", "id": "aug_004"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Do you have tape?", "expected_family": "tape", "source": "augmented_v1_llm_written", "id": "aug_005"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Which drawer has the pencils?", "expected_family": "pencil", "source": "augmented_v1_llm_written", "id": "aug_006"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Crash cart, can you find me the tape?", "expected_family": "tape", "source": "augmented_v1_llm_written", "id": "aug_007"}
+{"category": "clarify", "expected_action": "clarify", "setting": "lab", "text": "Pencils, please.", "expected_family": "pencil", "source": "augmented_v1_llm_written", "id": "aug_008"}
+{"category": "clarify", "expected_action": "clarify", "setting": "hospital", "text": "I need a syringe.", "expected_family": "syringe", "source": "augmented_v1_llm_written", "id": "aug_009"}
+{"category": "clarify", "expected_action": "clarify", "setting": "hospital", "text": "Where do you keep the syringes?", "expected_family": "syringe", "source": "augmented_v1_llm_written", "id": "aug_010"}
+{"category": "clarify", "expected_action": "clarify", "setting": "hospital", "text": "Can you get me a syringe?", "expected_family": "syringe", "source": "augmented_v1_llm_written", "id": "aug_011"}
+{"category": "clarify", "expected_action": "clarify", "setting": "hospital", "text": "Syringe, please.", "expected_family": "syringe", "source": "augmented_v1_llm_written", "id": "aug_012"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Where is the stapler?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_013"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Can you find me a ruler?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_014"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "I need a screwdriver.", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_015"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Do you have any paper clips?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_016"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Where's the hammer?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_017"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Can I get a flashlight?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_018"}
+{"category": "absent", "expected_action": "not_found", "setting": "lab", "text": "Which drawer has the USB cable?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_019"}
+{"category": "absent", "expected_action": "not_found", "setting": "hospital", "text": "I need gauze.", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_020"}
+{"category": "absent", "expected_action": "not_found", "setting": "hospital", "text": "Where is the thermometer?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_021"}
+{"category": "absent", "expected_action": "not_found", "setting": "hospital", "text": "Can you get me a bandage?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_022"}
+{"category": "absent", "expected_action": "not_found", "setting": "hospital", "text": "Do you have saline?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_023"}
+{"category": "absent", "expected_action": "not_found", "setting": "hospital", "text": "Where's the stethoscope?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_024"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "How are you doing today?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_025"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "What's your name?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_026"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "Can you play some music?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_027"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "What time is it?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_028"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "Is it going to rain later?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_029"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "Do you know any jokes?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_030"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "How long have you been here?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_031"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "lab", "text": "Are you a real robot?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_032"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "hospital", "text": "Where is the bathroom?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_033"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "hospital", "text": "Can you order lunch for me?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_034"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "hospital", "text": "What day is it today?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_035"}
+{"category": "irrelevant", "expected_action": "redirect", "setting": "hospital", "text": "Do you like your job?", "expected_family": null, "source": "augmented_v1_llm_written", "id": "aug_036"}
