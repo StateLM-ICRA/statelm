@@ -75,8 +75,8 @@ python scripts/build_stream.py --out build
 python -m unittest discover -s tests
 ```
 
-The full Fig. 2 experiment (SLM pass over the stream, replay, figure and
-sensitivity table) is in `cache_v3/notebooks/StateLM_RealStream_Fig2.ipynb`.
+The SLM pass over the stream, replay, figure and
+sensitivity table is in `cache_v3/notebooks/StateLM_RealStream_Fig2.ipynb`.
 
 
 ## Data
@@ -87,7 +87,7 @@ transcripts (`authoritative_labels.jsonl`) and the participants' recovery
 preferences from the post-trial survey (`recovery_preferences.jsonl`). Each
 version keeps the reviewed cases it was trained or evaluated on in its own
 `data/` folder (`original_cases.json`: 25 retrieval and 93 recovery cases).
-Participants are identified by number only.
+Participants are identified by participant id.
 
 The recordings contain successful requests and robot failures but no
 clarification questions, unavailable items or off-topic requests. Those three
@@ -100,8 +100,8 @@ from the recorded data.
 
 | Model | Base | Adaptation | Used for |
 |---|---|---|---|
-| `slm_qwen3` | Qwen/Qwen3-4B | 4-bit QLoRA, rank 8 | Fig. 2, caching experiments |
-| `slm_gemma2b` | google/gemma-2-2b-it | 4-bit QLoRA, rank 8 | user study on the Raspberry Pi 5, videos |
+| `slm_qwen3` | Qwen/Qwen3-4B | 4-bit QLoRA, rank 8 |
+| `slm_gemma2b` | google/gemma-2-2b-it | 4-bit QLoRA, rank 8 |
 
 The base models are public. The trained LoRA adapters will be released after
 the review.
