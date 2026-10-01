@@ -1,0 +1,23 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "max_input_tokens": 2852,
+  "max_new_tokens": 220,
+  "max_length": 3072,
+  "seed": 42,
+  "data_mode": "real_statelm",
+  "epochs": 3,
+  "learning_rate": 5e-05,
+  "lora_rank": 8,
+  "base_weights_included": false,
+  "one_recovery_attempt_per_trial": true,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "compute_dtype": "torch.bfloat16",
+  "thinking_mode": false,
+  "output_contract": "strict_json_decision",
+  "behavior_supplement_enabled": true,
+  "behavior_supplement_drive_id": "redacted",
+  "behavior_supplement_sha256": "baff61becb99ba55a2d92493dcd37576185d99f11e6871a2b5593d9ad077b7be",
+  "pre_send_review_default": true,
+  "stop_after_one_recovery_default": true
+}

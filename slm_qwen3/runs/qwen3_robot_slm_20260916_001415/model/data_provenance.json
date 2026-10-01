@@ -1,0 +1,12 @@
+{
+  "canonical_snapshot": "StateLM v5 reviewed package",
+  "canonical_notebook_id": "redacted",
+  "authoritative_labels_drive_id": "redacted",
+  "recovery_preferences_drive_id": "redacted",
+  "hashes": {
+    "original_cases.json": "3122ac1c2190aea3ac514c6e1ea73f257c718067b9cc56ee8735620d46847410",
+    "inventory.json": "2e78f7dad1115239b835aeed254e5c9c93b7bcf176edfd8acc95fa56e10ea68b",
+    "folds.json": "222e8313c1fc0f5de2935698cdd7a1303e84186b696ee78c1e6097abf895abd9"
+  },
+  "status": "provisional_text_review; development use"
+}

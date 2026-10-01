@@ -1,0 +1,274 @@
+[
+  {
+    "id": "blue_tape",
+    "name": "blue tape",
+    "family": "tape",
+    "attributes": {
+      "color": "blue"
+    },
+    "aliases": [
+      "blue tape"
+    ],
+    "drawer": "drawer 1"
+  },
+  {
+    "id": "white_tape",
+    "name": "white tape",
+    "family": "tape",
+    "attributes": {
+      "color": "white"
+    },
+    "aliases": [
+      "white tape"
+    ],
+    "drawer": "drawer 1"
+  },
+  {
+    "id": "sd_cards",
+    "name": "SD cards",
+    "family": "sd_cards",
+    "attributes": {},
+    "aliases": [
+      "sd cards",
+      "sd card"
+    ],
+    "drawer": "drawer 1"
+  },
+  {
+    "id": "leds",
+    "name": "LEDs",
+    "family": "leds",
+    "attributes": {},
+    "aliases": [
+      "leds",
+      "led",
+      "led lights"
+    ],
+    "drawer": "drawer 1"
+  },
+  {
+    "id": "orange_pencils",
+    "name": "orange pencils",
+    "family": "pencil",
+    "attributes": {
+      "color": "orange"
+    },
+    "aliases": [
+      "orange pencils",
+      "orange pencil"
+    ],
+    "drawer": "drawer 2"
+  },
+  {
+    "id": "yellow_pencils",
+    "name": "yellow pencils",
+    "family": "pencil",
+    "attributes": {
+      "color": "yellow"
+    },
+    "aliases": [
+      "yellow pencils",
+      "yellow pencil"
+    ],
+    "drawer": "drawer 2"
+  },
+  {
+    "id": "batteries",
+    "name": "batteries",
+    "family": "batteries",
+    "attributes": {},
+    "aliases": [
+      "batteries",
+      "battery"
+    ],
+    "drawer": "drawer 2"
+  },
+  {
+    "id": "measuring_tape",
+    "name": "measuring tape",
+    "family": "measuring_tape",
+    "attributes": {},
+    "aliases": [
+      "measuring tape"
+    ],
+    "drawer": "drawer 2"
+  },
+  {
+    "id": "red_pencils",
+    "name": "red pencils",
+    "family": "pencil",
+    "attributes": {
+      "color": "red"
+    },
+    "aliases": [
+      "red pencils",
+      "red pencil"
+    ],
+    "drawer": "drawer 3"
+  },
+  {
+    "id": "wires",
+    "name": "wires",
+    "family": "wires",
+    "attributes": {},
+    "aliases": [
+      "wires",
+      "wire"
+    ],
+    "drawer": "drawer 3"
+  },
+  {
+    "id": "blue_markers",
+    "name": "blue markers",
+    "family": "marker",
+    "attributes": {
+      "color": "blue"
+    },
+    "aliases": [
+      "blue markers",
+      "blue marker"
+    ],
+    "drawer": "drawer 3"
+  },
+  {
+    "id": "blue_pencils",
+    "name": "blue pencils",
+    "family": "pencil",
+    "attributes": {
+      "color": "blue"
+    },
+    "aliases": [
+      "blue pencils",
+      "blue pencil"
+    ],
+    "drawer": "drawer 3"
+  },
+  {
+    "id": "white_board_cleaner",
+    "name": "white board cleaner",
+    "family": "white_board_cleaner",
+    "attributes": {},
+    "aliases": [
+      "white board cleaner",
+      "whiteboard cleaner"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "circuit_board",
+    "name": "circuit board",
+    "family": "circuit_board",
+    "attributes": {},
+    "aliases": [
+      "circuit board"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "calculator",
+    "name": "calculator",
+    "family": "calculator",
+    "attributes": {},
+    "aliases": [
+      "calculator"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "gloves",
+    "name": "gloves",
+    "family": "gloves",
+    "attributes": {},
+    "aliases": [
+      "gloves",
+      "glove"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "playstation_controller",
+    "name": "PlayStation controller",
+    "family": "playstation_controller",
+    "attributes": {},
+    "aliases": [
+      "playstation controller"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "mouse",
+    "name": "mouse",
+    "family": "mouse",
+    "attributes": {},
+    "aliases": [
+      "mouse"
+    ],
+    "drawer": "drawer 4"
+  },
+  {
+    "id": "scissors",
+    "name": "scissors",
+    "family": "scissors",
+    "attributes": {},
+    "aliases": [
+      "scissors",
+      "scissor"
+    ],
+    "drawer": "drawer 5"
+  },
+  {
+    "id": "pliers",
+    "name": "pliers",
+    "family": "pliers",
+    "attributes": {},
+    "aliases": [
+      "pliers",
+      "plier"
+    ],
+    "drawer": "drawer 5"
+  },
+  {
+    "id": "book",
+    "name": "book",
+    "family": "book",
+    "attributes": {},
+    "aliases": [
+      "book"
+    ],
+    "drawer": "drawer 5"
+  },
+  {
+    "id": "wipes",
+    "name": "wipes",
+    "family": "wipes",
+    "attributes": {},
+    "aliases": [
+      "wipes",
+      "wipe"
+    ],
+    "drawer": "drawer 5"
+  },
+  {
+    "id": "orange_multimeter",
+    "name": "orange multimeter",
+    "family": "multimeter",
+    "attributes": {
+      "color": "orange"
+    },
+    "aliases": [
+      "orange multimeter",
+      "multimeter"
+    ],
+    "drawer": "drawer 5"
+  },
+  {
+    "id": "hand_sanitizer",
+    "name": "hand sanitizer",
+    "family": "hand_sanitizer",
+    "attributes": {},
+    "aliases": [
+      "hand sanitizer"
+    ],
+    "drawer": "drawer 5"
+  }
+]

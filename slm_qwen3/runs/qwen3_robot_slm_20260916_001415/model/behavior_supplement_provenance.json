@@ -1,0 +1,15 @@
+{
+  "drive_file_id": "redacted",
+  "path": "/content/drive/MyDrive/Robot SLM Supplemental Datasets/robot_slm_behavior_supplement_v2_with_missing_items.jsonl",
+  "sha256": "baff61becb99ba55a2d92493dcd37576185d99f11e6871a2b5593d9ad077b7be",
+  "base_counts": {
+    "train": 180,
+    "validation": 67,
+    "test": 37,
+    "challenge": 62
+  },
+  "added_train": 362,
+  "added_validation": 107,
+  "separate_behavior_test": 145,
+  "real_participant_test_modified": false
+}

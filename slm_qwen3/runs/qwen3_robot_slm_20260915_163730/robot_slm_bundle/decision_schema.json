@@ -1,0 +1,95 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "locate",
+        "clarify",
+        "recover",
+        "redirect",
+        "not_found",
+        "cancel"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "item_family": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Item Family"
+    },
+    "resolved_item_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Resolved Item Id"
+    },
+    "attributes": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Attributes",
+      "type": "object"
+    },
+    "missing_attributes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Missing Attributes",
+      "type": "array"
+    },
+    "failure_detected": {
+      "title": "Failure Detected",
+      "type": "boolean"
+    },
+    "failure_type": {
+      "enum": [
+        "none",
+        "comprehension_failure",
+        "context_failure",
+        "speech_failure",
+        "timing_failure",
+        "search_failure"
+      ],
+      "title": "Failure Type",
+      "type": "string"
+    },
+    "recovery_strategy": {
+      "enum": [
+        "none",
+        "clarifying_prompt",
+        "self_correction",
+        "specific_redirection",
+        "confidence_check",
+        "guided_reset",
+        "transparency_cue",
+        "partial_understanding_repair"
+      ],
+      "title": "Recovery Strategy",
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "item_family",
+    "resolved_item_id",
+    "attributes",
+    "missing_attributes",
+    "failure_detected",
+    "failure_type",
+    "recovery_strategy"
+  ],
+  "title": "Decision",
+  "type": "object"
+}

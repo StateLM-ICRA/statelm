@@ -1,0 +1,107 @@
+{
+  "dataset_name": "Robot SLM Behavior Supplement",
+  "version": "1.0.0",
+  "created_date": "2026-09-15",
+  "file_name": "robot_slm_behavior_supplement_v1.jsonl",
+  "sha256": "3b25a021a66415e082f146cff75a365251e9a1c5769275d4b6d82f8108a7424a",
+  "schema": "canonical Robot SLM JSONL record; compatible with load_grouped_jsonl",
+  "source_notebook_loader_verified": true,
+  "purpose": [
+    "learn inventory-conditioned ambiguity rather than category shortcuts",
+    "recover from explicit corrections and wrong proposed answers",
+    "retain a pending family when the user supplies only an attribute",
+    "distinguish absent near-matches such as pen versus pencil"
+  ],
+  "data_status": "synthetic development supplement; pending team/manual review",
+  "source_data_modified": false,
+  "recommended_use": "append supplement train to the real train split and supplement validation to the real validation split; keep supplement test as a separately reported behavior_test and never merge it into the real participant test score",
+  "split_design": {
+    "train_core_families": [
+      "gloves",
+      "marker",
+      "mask",
+      "pencil",
+      "syringe",
+      "tape"
+    ],
+    "validation_core_families": [
+      "catheter",
+      "dressing",
+      "swab"
+    ],
+    "test_core_families": [
+      "clamp",
+      "needle",
+      "thermometer",
+      "vial"
+    ],
+    "core_family_overlap": false
+  },
+  "audit": {
+    "rows": 374,
+    "split_counts": {
+      "train": 202,
+      "validation": 67,
+      "test": 105
+    },
+    "source_counts": {
+      "synthetic_behavior_supplement_v1": 374
+    },
+    "action_counts": {
+      "clarify": 42,
+      "locate": 146,
+      "recover": 167,
+      "not_found": 19
+    },
+    "failure_type_counts": {
+      "none": 207,
+      "comprehension_failure": 106,
+      "search_failure": 35,
+      "context_failure": 13,
+      "speech_failure": 13
+    },
+    "scenario_counts": {
+      "ambiguity_missing_attribute": 42,
+      "direct_specific_item": 35,
+      "context_attribute_answer": 35,
+      "singleton_family_locate": 35,
+      "explicit_user_correction": 52,
+      "review_wrong_item": 35,
+      "review_wrong_drawer": 35,
+      "review_correct_item_and_drawer": 35,
+      "review_guessed_unstated_attribute": 19,
+      "not_found_absent_attribute_value": 13,
+      "recover_lost_context": 13,
+      "review_incomplete_direction": 13,
+      "not_found_pen_near_pencils": 6,
+      "locate_pen_when_present": 6
+    },
+    "family_counts": {
+      "tape": 33,
+      "pencil": 41,
+      "gloves": 33,
+      "syringe": 33,
+      "mask": 25,
+      "marker": 25,
+      "catheter": 27,
+      "dressing": 20,
+      "swab": 20,
+      "needle": 28,
+      "vial": 21,
+      "thermometer": 28,
+      "clamp": 28,
+      "pen": 12
+    },
+    "group_count": 14,
+    "prompt_target_conflicts": 0,
+    "duplicate_ids": 0,
+    "group_leakage": 0
+  },
+  "generation": {
+    "seed": 7319,
+    "generator": "generate_robot_slm_behavior_supplement.py",
+    "source_notebook": "Robot_SLM_Qwen3_4B_QLoRA_Colab (1).ipynb",
+    "counterfactual_inventory_ids_and_drawers": true,
+    "final_spoken_drawer_text_is_not_a_model_target": true
+  }
+}

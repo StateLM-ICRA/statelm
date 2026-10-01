@@ -1,0 +1,57 @@
+{
+  "name": "robot_slm_behavior_supplement_v2_with_missing_items",
+  "version": "2.0.0",
+  "sha256": "baff61becb99ba55a2d92493dcd37576185d99f11e6871a2b5593d9ad077b7be",
+  "rows": 614,
+  "base_behavior_supplement": {
+    "path": "Documents/ChatGPT/LM/robot_slm_behavior_supplement_v1.jsonl",
+    "rows": 374,
+    "sha256": "3b25a021a66415e082f146cff75a365251e9a1c5769275d4b6d82f8108a7424a"
+  },
+  "added_missing_item_supplement": {
+    "name": "robot_slm_missing_item_supplement_v1",
+    "version": "1.0.0",
+    "sha256": "11cdc054e6880c5f328d1a7d6838ab117120376f22ec2f6ea6fc907b4605319d",
+    "rows": 240,
+    "split_counts": {
+      "train": 160,
+      "validation": 40,
+      "test": 40
+    },
+    "scenario_counts": {
+      "missing_unknown_item": 82,
+      "missing_known_family_variant": 41,
+      "missing_after_user_correction": 41,
+      "missing_attribute_answer_after_clarification": 38,
+      "missing_pre_send_review_wrong_inventory_guess": 38
+    },
+    "description": "Synthetic cases where the user clearly requests an absent item or absent inventory variant; target action is not_found."
+  },
+  "split_counts": {
+    "train": 362,
+    "validation": 107,
+    "test": 145
+  },
+  "scenario_counts": {
+    "ambiguity_missing_attribute": 42,
+    "direct_specific_item": 35,
+    "context_attribute_answer": 35,
+    "singleton_family_locate": 35,
+    "explicit_user_correction": 52,
+    "review_wrong_item": 35,
+    "review_wrong_drawer": 35,
+    "review_correct_item_and_drawer": 35,
+    "review_guessed_unstated_attribute": 19,
+    "not_found_absent_attribute_value": 13,
+    "recover_lost_context": 13,
+    "review_incomplete_direction": 13,
+    "not_found_pen_near_pencils": 6,
+    "locate_pen_when_present": 6,
+    "missing_unknown_item": 82,
+    "missing_known_family_variant": 41,
+    "missing_after_user_correction": 41,
+    "missing_attribute_answer_after_clarification": 38,
+    "missing_pre_send_review_wrong_inventory_guess": 38
+  },
+  "description": "Original behavior supplement v1 plus missing-item/not_found cases for retraining."
+}
