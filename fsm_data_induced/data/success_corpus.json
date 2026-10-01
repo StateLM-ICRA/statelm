@@ -1,0 +1,2217 @@
+[
+  {
+    "trial_id": "sample_003",
+    "sample_aliases": [
+      "sample_003"
+    ],
+    "participant_id": "1",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.72s] All right now can you please find the measuring tape?\n[6.72s → 9.72s] Lead me to the measuring tape please.\n[9.72s → 10.72s] Drawer 2 on.\n[10.72s → 11.72s] Okay.\n[11.72s → 15.72s] I guess that's what it is.\n[15.72s → 18.72s] Is this it?\n[18.72s → 27.04s] Drawer 2."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Now, can you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Measuring tape. Lead me to the measuring tape, please."
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two on."
+          },
+          {
+            "role": "participant",
+            "text": "Okay. I guess that's where it is. Is this it?"
+          },
+          {
+            "role": "operator",
+            "text": "Mm-hmm."
+          },
+          {
+            "role": "participant",
+            "text": "Okay, cool. Found it."
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two off."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample003.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Now, can you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Measuring tape. Lead me to the measuring tape, please."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:4",
+        "kind": "provided_jsonl_roles"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Now, can you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Measuring tape. Lead me to the measuring tape, please."
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two on."
+          },
+          {
+            "role": "participant",
+            "text": "Okay. I guess that's where it is. Is this it?"
+          },
+          {
+            "role": "operator",
+            "text": "Mm-hmm."
+          },
+          {
+            "role": "participant",
+            "text": "Okay, cool. Found it."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:5",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_051",
+    "sample_aliases": [
+      "sample_051"
+    ],
+    "participant_id": "10",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 7.00s] I need an appy injection.\n[7.00s → 14.00s] Item is in drawer one.\n[14.00s → 15.00s] Okay.\n[16.00s → 17.00s] There you go.\n[17.00s → 18.00s] Right."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So, let's go to drawer three. No, not drawer three, item three. Please, I need an epinephrine injection."
+          },
+          {
+            "role": "participant",
+            "text": "I need an epi injection. Okay."
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          },
+          {
+            "role": "operator",
+            "text": "Okay. Yep. There you go. All right. And so, just go ahead and get it. It's a research project. You're next."
+          },
+          {
+            "role": "passerby",
+            "text": "What?"
+          },
+          {
+            "role": "operator",
+            "text": "Research project. Thank you, yeah. You are actually next."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample051.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So, let's go to drawer three. No, not drawer three, item three. Please, I need an epinephrine injection."
+          },
+          {
+            "role": "participant",
+            "text": "I need an epi injection. Okay."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:47",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_057",
+    "sample_aliases": [
+      "sample_057"
+    ],
+    "participant_id": "11",
+    "trial_index": 4,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] All right, now can you find the blue markers?\n[5.00s → 7.00s] Robo, where's the blue markers?\n[7.00s → 10.00s] Item is in drawer 3."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright, now can you find the blue markers?"
+          },
+          {
+            "role": "participant",
+            "text": "Robot, where's the blue markers?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample057.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright, now can you find the blue markers?"
+          },
+          {
+            "role": "participant",
+            "text": "Robot, where's the blue markers?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:54",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_063",
+    "sample_aliases": [
+      "sample_063"
+    ],
+    "participant_id": "12",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 7.80s] And then one more actually I miscounted. Can you please find the hand sanitizer?\n[7.80s → 11.48s] In which drawer is the hand sanitizer?\n[11.48s → 15.48s] Item is in drawer 5.\n[15.48s → 25.48s] Yes, great. Okay, awesome. So that concludes the first part of the study. I'm going to\n[25.48s → 26.48s] stop recording now."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then one more, actually, I miscounted. Can you please find the hand sanitizer?"
+          },
+          {
+            "role": "participant",
+            "text": "In which drawer is the hand sanitizer?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          },
+          {
+            "role": "participant",
+            "text": "Yes. Great."
+          },
+          {
+            "role": "operator",
+            "text": "Okay. Awesome. So that concludes the first part of the study. I'm going to stop recording now."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample063.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then one more, actually, I miscounted. Can you please find the hand sanitizer?"
+          },
+          {
+            "role": "participant",
+            "text": "In which drawer is the hand sanitizer?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:60",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_064",
+    "sample_aliases": [
+      "sample_064"
+    ],
+    "participant_id": "13",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.96s] Okay, so for the first one I want you to find me SD cards.\n[6.96s → 13.60s] So, uh, uh, find me, uh, and add, find me an SD card.\n[14.56s → 16.40s] Item is in drawer one.\n[17.44s → 19.44s] So you can just open it.\n[19.44s → 20.24s] Yeah.\n[25.52s → 26.88s] Then check it out.\n[26.96s → 27.52s] Find it?\n[27.52s → 28.24s] Yes, find it.\n[28.24s → 29.44s] Okay, you can put it back.\n[31.28s → 32.08s] Go."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So for the first one, I want you to find me SD cards."
+          },
+          {
+            "role": "participant",
+            "text": "Find me an SD card."
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          },
+          {
+            "role": "participant",
+            "text": "Then I took it out."
+          },
+          {
+            "role": "operator",
+            "text": "Found it? Yeah, it's fine. Can you put it back?"
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample064.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So for the first one, I want you to find me SD cards."
+          },
+          {
+            "role": "participant",
+            "text": "Find me an SD card."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:61",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_071",
+    "sample_aliases": [
+      "sample_070",
+      "sample_071"
+    ],
+    "participant_id": "14",
+    "trial_index": 2,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.28s] Alright, next could you find the medical tape?\n[5.28s → 10.20s] Find medical tape.\n[10.20s → 13.66s] I did not understand that request.\n[13.66s → 18.16s] Find medical tape.\n[18.16s → 22.92s] Item is in drawer 3."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright, next could you find the medical tape? Find medical tape."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "I did not understand that request."
+          }
+        ],
+        "source": "data_master.jsonl:197",
+        "kind": "provided_jsonl_roles"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright, next could you find the medical tape? Find medical tape."
+          },
+          {
+            "role": "robot",
+            "text": "I did not understand that request."
+          },
+          {
+            "role": "operator",
+            "text": "Find medical tape."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer 3."
+          }
+        ],
+        "source": "data_master.jsonl:198",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_077",
+    "sample_aliases": [
+      "sample_076",
+      "sample_077"
+    ],
+    "participant_id": "14",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] Last one. Could you find the epinephrine injection?\n[5.00s → 10.00s] Find an epinephrine injection.\n[16.00s → 20.00s] I did not understand that request.\n[20.00s → 25.00s] Find an epinephrine injection.\n[25.00s → 30.00s] Find an epinephrine injection.\n[30.00s → 35.00s] Find an epinephrine injection.\n[35.00s → 40.00s] So that was the first part of the study."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Last one. Could you find the epinephrine injection? Find an epinephrine injection."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "I did not understand that request."
+          }
+        ],
+        "source": "data_master.jsonl:203",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_083",
+    "sample_aliases": [
+      "sample_082",
+      "sample_083"
+    ],
+    "participant_id": "15",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.00s] And then could you find the medical tape?\n[4.00s → 7.00s] Where is the medical tape?\n[7.00s → 12.00s] Sorry, I am delayed.\n[12.00s → 14.00s] Please repeat your request.\n[14.00s → 15.00s] Where is the medical tape?\n[15.00s → 18.00s] Item is in door 3.\n[18.00s → 20.00s] Awesome.\n[20.00s → 23.00s] Alright, so that concludes the trials."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then could you find the medical tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Where is the medical tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Sorry, I am delayed. Please repeat your request."
+          }
+        ],
+        "source": "data_master.jsonl:204",
+        "kind": "provided_jsonl_roles"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then could you find the medical tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Where is the medical tape?"
+          },
+          {
+            "role": "robot",
+            "text": "Sorry, I am delayed. Please repeat your request."
+          },
+          {
+            "role": "participant",
+            "text": "Where is the medical tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer 3."
+          }
+        ],
+        "source": "data_master.jsonl:205",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_088",
+    "sample_aliases": [
+      "sample_088"
+    ],
+    "participant_id": "16",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] And then last item, could you please find the measuring tape?\n[5.00s → 8.00s] Could you please find a measuring tape?\n[8.00s → 11.00s] Item is in drawer too.\n[11.00s → 13.00s] Yes, you do.\n[13.00s → 15.00s] Okay.\n[15.00s → 16.00s] Awesome.\n[16.00s → 18.00s] Well, that kind of concludes the first part of the study.\n[18.00s → 20.00s] So I'll start recording now."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then last item, could you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Could you please find a measuring tape?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          },
+          {
+            "role": "participant",
+            "text": "Yes, it is."
+          },
+          {
+            "role": "operator",
+            "text": "Yay. Okay. Awesome. Well, that kind of concludes the first part of the study, so I'll stop recording now."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample088.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And then last item, could you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Could you please find a measuring tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:74",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_096",
+    "sample_aliases": [
+      "sample_096"
+    ],
+    "participant_id": "18",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 8.28s] can fetch. So can you fetch the book instead from the robot? This is trial. This is trial\n[8.28s → 16.00s] three. So can you fetch your book from the robot? And robots? Can you fetch me the book?\n[16.00s → 23.00s] Item is in drawer five.\n[23.00s → 38.00s] Cool. So just for the back end. Thank you. So now let's go to file four."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "then trial three um so you can fetch um the scissors from the robot."
+          },
+          {
+            "role": "participant",
+            "text": "i can see them here or it's not this one. oh it's not this one. oh okay okay so let me see i can i can ask it"
+          },
+          {
+            "role": "operator",
+            "text": "yeah you can fetch it's okay it's out um so can you fetch the book instead From the robot."
+          },
+          {
+            "role": "operator",
+            "text": "This is trial. This is trial three. So can you fetch your book from the robot?"
+          },
+          {
+            "role": "participant",
+            "text": "Robot, can you fetch me the book?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          },
+          {
+            "role": "participant",
+            "text": "Cool. So just put it back in. Thank you."
+          },
+          {
+            "role": "operator",
+            "text": "Yeah, nice."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample096.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "then trial three um so you can fetch um the scissors from the robot."
+          },
+          {
+            "role": "participant",
+            "text": "i can see them here or it's not this one. oh it's not this one. oh okay okay so let me see i can i can ask it"
+          },
+          {
+            "role": "operator",
+            "text": "yeah you can fetch it's okay it's out um so can you fetch the book instead From the robot."
+          },
+          {
+            "role": "operator",
+            "text": "This is trial. This is trial three. So can you fetch your book from the robot?"
+          },
+          {
+            "role": "participant",
+            "text": "Robot, can you fetch me the book?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:81",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_103",
+    "sample_aliases": [
+      "sample_103"
+    ],
+    "participant_id": "19",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.00s] Where is the C-Source?\n[4.00s → 7.00s] Item is in drawer 5.\n[7.00s → 10.00s] Okay, perfect.\n[10.00s → 14.00s] Listen and back.\n[14.00s → 18.00s] Okay, that's perfect."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "and then last one i'm asking you to retrieve the scissors."
+          },
+          {
+            "role": "participant",
+            "text": "Where is the scissors?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          },
+          {
+            "role": "operator",
+            "text": "Okay, perfect. Push them back. Okay, that's perfect."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample103.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "and then last one i'm asking you to retrieve the scissors."
+          },
+          {
+            "role": "participant",
+            "text": "Where is the scissors?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:88",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_005",
+    "sample_aliases": [
+      "sample_005"
+    ],
+    "participant_id": "2",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 7.36s] the blue tape from the little weight go ahead and get the get the blue tape from the crash cut\n[7.36s → 10.42s] They just say what you need to the crash cut blue tape\n[16.40s → 18.40s] Item is in drawer one\n[21.60s → 23.60s] Okay nice\n[24.16s → 28.88s] Now I'm going to start the second trial"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So for every trial, so please go ahead and get the blue tape from the no wait go ahead and get the get the blue tape from the crash cart they just say what you need to the crash cart."
+          },
+          {
+            "role": "participant",
+            "text": "Blue tape."
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          },
+          {
+            "role": "operator",
+            "text": "Okay nice."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample005.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So for every trial, so please go ahead and get the blue tape from the no wait go ahead and get the get the blue tape from the crash cart they just say what you need to the crash cart."
+          },
+          {
+            "role": "participant",
+            "text": "Blue tape."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:8",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_105",
+    "sample_aliases": [
+      "sample_105"
+    ],
+    "participant_id": "20",
+    "trial_index": 2,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] So next can you find the circuit board?\n[5.00s → 10.00s] What number drawer would I find the circuit board?\n[10.00s → 13.00s] Item is in drawer 4.\n[13.00s → 14.00s] Uh-huh.\n[14.00s → 18.00s] I don't know if I should have this on.\n[18.00s → 19.00s] Is that?\n[19.00s → 20.00s] Yep."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So next, can you find the circuit board?"
+          },
+          {
+            "role": "participant",
+            "text": "What number drawer would I find the circuit board?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer four."
+          },
+          {
+            "role": "participant",
+            "text": "Uh-huh. I don't know which one. This one? This one? Yep. Yep."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample105.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So next, can you find the circuit board?"
+          },
+          {
+            "role": "participant",
+            "text": "What number drawer would I find the circuit board?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer four."
+          }
+        ],
+        "source": "data_master.jsonl:90",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_109",
+    "sample_aliases": [
+      "sample_109"
+    ],
+    "participant_id": "21",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.64s] All right, so first item, can you please retrieve the scissors from the door?\n[6.64s → 8.64s] Where are the scissors?\n[8.64s → 11.08s] Item is in drawer 5.\n[11.08s → 15.92s] Awesome, and then you can put those right back."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "All right, so first item, can you please retrieve the scissors from the drawer?"
+          },
+          {
+            "role": "participant",
+            "text": "Where are the scissors?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:94",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_117",
+    "sample_aliases": [
+      "sample_117"
+    ],
+    "participant_id": "22",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 1.84s] That's it.\n[1.84s → 4.44s] Can I put those back?\n[4.44s → 5.12s] All right.\n[5.12s → 7.28s] And then last item, could you please\n[7.28s → 10.60s] find the PlayStation controller?\n[10.60s → 15.64s] Which drawer is the PlayStation controller in?\n[15.64s → 17.20s] Item is in drawer four.\n[20.72s → 21.48s] Oh, it is.\n[21.48s → 23.12s] Thank you.\n[23.12s → 23.64s] All right.\n[27.72s → 28.60s] Awesome.\n[28.60s → 31.00s] So that concludes the first part of the study."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "All right, and then the last item. Could you please find the PlayStation controller?"
+          },
+          {
+            "role": "participant",
+            "text": "Which drawer is the PlayStation controller in?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer four."
+          }
+        ],
+        "source": "data_master.jsonl:102",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_122",
+    "sample_aliases": [
+      "sample_122"
+    ],
+    "participant_id": "23",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 10.68s] All right, and then last item. Could you please find the measuring tape?\n[10.68s → 13.48s] Where is the measuring tape?\n[13.48s → 15.48s] Item is in drawer too.\n[15.48s → 17.48s] Oh my god, it's right.\n[17.48s → 18.48s] Yeah.\n[18.48s → 20.92s] All right.\n[20.92s → 22.96s] So that concludes the first part of the study."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "And then last item."
+          },
+          {
+            "role": "operator",
+            "text": "Could you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "Where is the measuring tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:107",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_126",
+    "sample_aliases": [
+      "sample_126"
+    ],
+    "participant_id": "24",
+    "trial_index": 4,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.60s] Highest blue pencil.\n[4.60s → 14.12s] Item is in drawer 3.\n[14.12s → 17.68s] And our last one is going to be...\n[17.68s → 21.12s] Where is the gloves?"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "our fourth object is going to be the SD cards. Okay. Wait. Sorry. Ask the cart. where's the SD card? Okay, we're going to do another one. Because I saw it like before, but I remember it wrong. Okay. Yeah, so where are the blue pencils? Hi, where's the blue pencil?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:111",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_134",
+    "sample_aliases": [
+      "sample_134"
+    ],
+    "participant_id": "26",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 3.62s] Right okay, I don't could you find the red pencils please?\n[5.00s → 7.00s] Hello, where are the red pencils?\n[7.60s → 9.60s] Item is in no three\n[10.56s → 12.56s] Found it"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright, next item. Could you find the red pencils, please?"
+          },
+          {
+            "role": "participant",
+            "text": "Hello, where are the red pencils?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:115",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_140",
+    "sample_aliases": [
+      "sample_140"
+    ],
+    "participant_id": "27",
+    "trial_index": 4,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.00s] Now could you find a PlayStation controller?\n[4.00s → 8.00s] Um, we're gonna find a PlayStation controller.\n[8.00s → 10.00s] Item is in drawer 4.\n[15.00s → 17.00s] Alright.\n[17.00s → 19.00s] And then..."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Alright. Now, could you find a PlayStation controller?"
+          },
+          {
+            "role": "participant",
+            "text": "um where can i find a playstation controller?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "item is in drawer four."
+          }
+        ],
+        "source": "data_master.jsonl:121",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_146",
+    "sample_aliases": [
+      "sample_146"
+    ],
+    "participant_id": "28",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 10.20s] I want you to look for white tape.\n[10.20s → 15.52s] Can you give me the white tape?\n[15.52s → 20.52s] Item is in drawer one.\n[20.52s → 26.26s] You have to bend the tape cutting design around after,\n[26.26s → 27.62s] no fan outline.\n[27.62s → 28.10s] You harder than the frame.\n[28.10s → 29.32s] It should be installed based on the platform.\n[29.32s → 34.10s] I will break BB Christ to the point for it to very steep.\n[34.10s → 38.42s] Create 5 scissors equal to 30 cm wide,\n[38.42s → 42.86s] because BB line should be used with metal.\n[42.86s → 49.20s] I will cut using a"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Finally..."
+          },
+          {
+            "role": "participant",
+            "text": "I want you to look for white tape."
+          },
+          {
+            "role": "operator",
+            "text": "Can you give me the white tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:128",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_149",
+    "sample_aliases": [
+      "sample_149"
+    ],
+    "participant_id": "29",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 7.00s] All right, next item. Could you find a pair of scissors?\n[7.00s → 12.00s] Okay, scissors. Where are the scissors?\n[12.00s → 15.00s] Item is in drawer 5.\n[15.00s → 18.00s] Okay."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Could you find a pair of scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "Okay, scissors. Where are the scissors?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:131",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_013",
+    "sample_aliases": [
+      "sample_013"
+    ],
+    "participant_id": "3",
+    "trial_index": 4,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 2.00s] Where is here, Dineson?\n[2.00s → 4.00s] Item is in drawer one.\n[10.00s → 12.00s] Yeah, okay, it's perfect.\n[20.00s → 23.00s] The last one is going to be the razor."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And we're going to ask you to retrieve the adenosine."
+          },
+          {
+            "role": "participant",
+            "text": "Where is the adenosine?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          },
+          {
+            "role": "participant",
+            "text": "Yeah, okay, it's perfect, yeah."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample013.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And we're going to ask you to retrieve the adenosine."
+          },
+          {
+            "role": "participant",
+            "text": "Where is the adenosine?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:16",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_155",
+    "sample_aliases": [
+      "sample_154",
+      "sample_155"
+    ],
+    "participant_id": "30",
+    "trial_index": 2,
+    "label": "success",
+    "setting": null,
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 7.72s] item. Next item. I'll wait for that further recording. Next item, could you find the Dexterous\n[7.72s → 14.72s] Injection. Hey, find Dexterous. Yes, that's fine. I know it's here.",
+      "[0.00s → 5.00s] next item.\n[5.00s → 8.00s] Okay, for that further recording.\n[8.00s → 12.00s] Next item, could you find the Dextrose injection?\n[12.00s → 15.00s] Hey, find Dextrose.\n[15.00s → 18.00s] Yes, that's fine.\n[18.00s → 20.00s] I know it's here."
+    ],
+    "candidates": []
+  },
+  {
+    "trial_id": "sample_162",
+    "sample_aliases": [
+      "sample_162"
+    ],
+    "participant_id": "31",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.64s] I don't, would you please find a measuring tape?\n[4.64s → 8.00s] Can I just, do I have to ask it each time?\n[8.00s → 9.00s] Yeah.\n[9.00s → 16.92s] Um, Crash Cart, can you tell me where the measuring tape is?\n[16.92s → 18.92s] Item is in drawer too.\n[18.92s → 19.92s] Okay.\n[19.92s → 21.92s] There you go.\n[21.92s → 22.92s] So."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "oh yeah that's it great next item could you please find a measuring tape."
+          },
+          {
+            "role": "participant",
+            "text": "Can I just, do I have to ask it each time? Yeah."
+          },
+          {
+            "role": "operator",
+            "text": "Crash cart, can you tell me where the measuring tape is?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:136",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_166",
+    "sample_aliases": [
+      "sample_166"
+    ],
+    "participant_id": "32",
+    "trial_index": 2,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.32s] Next item, could you please find blue markers?\n[6.72s → 10.24s] Oh, which door stores the blue marker?\n[11.36s → 12.80s] Item is in drawer 3.\n[18.64s → 20.24s] Perfect, and you can put that right back.\n[22.08s → 24.56s] All right, next item, oh, could you close the drawer?\n[26.08s → 26.96s] All right, next."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "All right."
+          },
+          {
+            "role": "operator",
+            "text": "Next item. Could you please find blue markers?"
+          },
+          {
+            "role": "participant",
+            "text": "Oh, which drawer stores the blue marker?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:140",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_170",
+    "sample_aliases": [
+      "sample_170"
+    ],
+    "participant_id": "33",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 2.48s] I don't could you please find the measuring tape\n[4.44s → 7.92s] So I talked to it. Yeah, could I have the measuring tape?\n[9.20s → 11.20s] Item is in drawer two\n[14.16s → 16.64s] Sweet awesome put that right back"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "All right, let me set this up here."
+          },
+          {
+            "role": "participant",
+            "text": "Okay, cool."
+          },
+          {
+            "role": "operator",
+            "text": "First item, could you please find the measuring tape?"
+          },
+          {
+            "role": "participant",
+            "text": "So I talk to it? Yeah. Can I have the measuring tape?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:144",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_176",
+    "sample_aliases": [
+      "sample_176"
+    ],
+    "participant_id": "34",
+    "trial_index": 2,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 8.16s] All right. Next item. Could you find a PlayStation controller?\n[8.16s → 11.08s] Help me find a PlayStation controller?\n[11.08s → 13.08s] Item is in drawer 4.\n[13.08s → 21.20s] Well, let's get into the room.\n[21.20s → 25.72s] Okay. I'll still put the icon right back again."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Next item. Could you find a PlayStation controller?"
+          },
+          {
+            "role": "participant",
+            "text": "Help me find a PlayStation controller."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer four."
+          }
+        ],
+        "source": "data_master.jsonl:150",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_182",
+    "sample_aliases": [
+      "sample_182"
+    ],
+    "participant_id": "35",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 3.40s] Then I'm going to start the tutorial.\n[3.40s → 5.00s] Um, um,\n[5.00s → 10.80s] can you get the blue markers?\n[10.80s → 13.76s] Uh, can you get the blue markers?\n[13.76s → 16.28s] Item is in drawer three.\n[16.28s → 20.60s] Okay.\n[20.60s → 23.08s] Um, they're here.\n[23.08s → 24.80s] Yeah. Okay, so that's fine.\n[24.80s → 26.60s] Okay.\n[30.00s → 32.00s] Okay.\n[32.00s → 35.00s] So.\n[44.00s → 48.00s] So, mom, where do you start, uh?"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "Now we're going to start the third trial."
+          },
+          {
+            "role": "operator",
+            "text": "For this trial, Can you get the blue markers? Uh, can you get the blue markers?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:156",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_189",
+    "sample_aliases": [
+      "sample_189"
+    ],
+    "participant_id": "36",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 3.84s] at the end of that, then try to fight.\n[3.84s → 4.68s] Can you get the...\n[9.08s → 10.32s] I don't want some fish.\n[10.32s → 14.64s] You get the 50% Death Shrower's injection.\n[15.96s → 18.72s] Can I get 50% Death Shrower's injection?\n[20.24s → 21.88s] Item is in drawer two.\n[28.20s → 29.20s] Okay.\n[29.20s → 31.20s] Okay. Thank you.\n[31.20s → 32.56s] So that's the end of this part.\n[32.56s → 33.56s] No, this is a comp..."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Then trial five. Can you get the 50% dextrose injection?"
+          },
+          {
+            "role": "participant",
+            "text": "Can I get 50% dextro injection?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:163",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_200",
+    "sample_aliases": [
+      "sample_200"
+    ],
+    "participant_id": "39",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.00s] Awesome. Could you please find a pair of scissors?\n[7.00s → 13.00s] Am I supposed to ask now? Hey, can you get me a pair of scissors please?\n[13.00s → 16.00s] Item is in drawer 5.\n[19.00s → 23.00s] Yay, I can put those right back."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "Awesome."
+          },
+          {
+            "role": "operator",
+            "text": "Could you please find a pair of scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "Am I supposed to ask now?"
+          },
+          {
+            "role": "operator",
+            "text": "Hey, can you get me a pair of scissors please?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:175",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_019",
+    "sample_aliases": [
+      "sample_019"
+    ],
+    "participant_id": "4",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] face mask. Face mask? Yes.\n[5.00s → 14.00s] So, item is in drawer 4. 1, 2, 3, 4, out here. Face mask.\n[14.00s → 24.00s] So, man, okay, perfect. We're done. So, I'm going to skew to complete the form.\n[24.00s → 26.00s] Sorry."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And yeah, the last one is going to be like face mask."
+          },
+          {
+            "role": "participant",
+            "text": "A face mask?"
+          },
+          {
+            "role": "operator",
+            "text": "Yes."
+          },
+          {
+            "role": "robot",
+            "text": "Um, so... Item is in drawer four."
+          },
+          {
+            "role": "participant",
+            "text": "One two three four. out there. These ones."
+          },
+          {
+            "role": "operator",
+            "text": "Okay perfect. We're done"
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample019.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "And yeah, the last one is going to be like face mask."
+          },
+          {
+            "role": "participant",
+            "text": "A face mask?"
+          },
+          {
+            "role": "operator",
+            "text": "Yes."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer four."
+          }
+        ],
+        "source": "data_master.jsonl:22",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_205",
+    "sample_aliases": [
+      "sample_205"
+    ],
+    "participant_id": "40",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.40s] All right. Could you please find SD cards?\n[4.40s → 7.00s] Where are the SD cards?\n[7.00s → 10.00s] Item is in drawer one.\n[10.00s → 12.00s] Oh.\n[15.00s → 16.00s] Can I take it?\n[16.00s → 17.00s] Yeah, take it out.\n[17.00s → 20.00s] Perfect. And then you can put that back."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "All right."
+          },
+          {
+            "role": "operator",
+            "text": "Could you please find SD cards?"
+          },
+          {
+            "role": "participant",
+            "text": "Where is the SD cards?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:180",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_212",
+    "sample_aliases": [
+      "sample_212"
+    ],
+    "participant_id": "41",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 2.00s] 3\n[2.00s → 4.00s] Can you get the\n[4.64s → 6.64s] Wires\n[6.80s → 8.80s] Where are the wires\n[10.80s → 12.80s] Item is in drawer 3\n[17.44s → 20.56s] See the wire yeah, okay nice then\n[21.52s → 24.88s] On this row so we are starting the fourth"
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "participant",
+            "text": "Now we're going to begin Trial 3."
+          },
+          {
+            "role": "operator",
+            "text": "Can you get the wires?"
+          },
+          {
+            "role": "participant",
+            "text": "Where are the wires?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in Drawer 3."
+          }
+        ],
+        "source": "data_master.jsonl:186",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_024",
+    "sample_aliases": [
+      "sample_024"
+    ],
+    "participant_id": "5",
+    "trial_index": 5,
+    "label": "success",
+    "setting": null,
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.76s] going to be the surgical gloves. We're just surgical gloves.\n[5.76s → 9.76s] Item is in drawer 3.\n[12.64s → 15.64s] Thank you.\n[15.64s → 17.64s] All right.\n[17.64s → 25.64s] Okay, perfect. Now I'm going to ask you to complete a small forum."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Perfect. Last one is going to be the surgical gloves."
+          },
+          {
+            "role": "participant",
+            "text": "Where's the surgical gloves?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer 3."
+          },
+          {
+            "role": "participant",
+            "text": "Thank you."
+          },
+          {
+            "role": "operator",
+            "text": "Alright. Okay, perfect. Now, okay. I'm going to ask you to complete a small form."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample024.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "Perfect. Last one is going to be the surgical gloves."
+          },
+          {
+            "role": "participant",
+            "text": "Where's the surgical gloves?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:27",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_027",
+    "sample_aliases": [
+      "sample_027"
+    ],
+    "participant_id": "6",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.12s] So can you get this?\n[6.12s → 7.92s] This is us.\n[7.92s → 11.60s] I want scissors.\n[11.60s → 13.32s] Item is in drawer 5.\n[13.32s → 15.32s] Oh cool.\n[15.32s → 16.32s] Yeah.\n[16.32s → 26.32s] Now try it for was the item you need.\n[27.32s → 29.32s] Ah, blue tape.\n[29.32s → 30.32s] Oh sir.\n[30.32s → 31.32s] I'll see."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So go ahead and start the third attempt. So this is going to be the third trial. OK. It's all right. So can you get the scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "I want scissors."
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          },
+          {
+            "role": "participant",
+            "text": "Here. Oh, cool. Yeah. Thank you."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample027.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So go ahead and start the third attempt. So this is going to be the third trial. OK. It's all right. So can you get the scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "I want scissors."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:30",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_030",
+    "sample_aliases": [
+      "sample_030"
+    ],
+    "participant_id": "7",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 5.00s] First item, could you please find the blue tape?\n[5.00s → 7.00s] The blue tape?\n[7.00s → 10.00s] Yes, so you can ask the cart where the blue tape is.\n[10.00s → 15.00s] Okay, high cart. Do you know where the blue tape is?\n[15.00s → 18.00s] Item is in drawer one.\n[21.00s → 24.00s] Awesome, and then you can just put it right back where you found it.\n[24.00s → 25.00s] Yes."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "First item, could you please find the blue tape?"
+          },
+          {
+            "role": "participant",
+            "text": "The blue tape?"
+          },
+          {
+            "role": "operator",
+            "text": "Yes, so you can ask the cart where the blue tape is."
+          },
+          {
+            "role": "participant",
+            "text": "Okay, hi cart, do you know where the blue tape is?"
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          },
+          {
+            "role": "operator",
+            "text": "Awesome, and then you can just put it right back where you found it."
+          },
+          {
+            "role": "participant",
+            "text": "Oh yes cool."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample030.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "First item, could you please find the blue tape?"
+          },
+          {
+            "role": "participant",
+            "text": "The blue tape?"
+          },
+          {
+            "role": "operator",
+            "text": "Yes, so you can ask the cart where the blue tape is."
+          },
+          {
+            "role": "participant",
+            "text": "Okay, hi cart, do you know where the blue tape is?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:33",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_038",
+    "sample_aliases": [
+      "sample_037",
+      "sample_038"
+    ],
+    "participant_id": "7",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "lab",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 4.04s] All right, lastly, could you please find the scissors?\n[4.04s → 6.60s] High card, do you know where the scissors are?\n[6.60s → 9.40s] I did not understand that request.\n[9.40s → 11.08s] Do you know where the scissors are?\n[13.72s → 15.52s] Item is in drawer five.\n[21.04s → 21.88s] Hurry up.\n[21.88s → 24.08s] And then you can just put the right hand."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "All right, lastly, could you please find the scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "High cart, do you know where the scissors are?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "I did not understand that request."
+          }
+        ],
+        "source": "data_master.jsonl:195",
+        "kind": "provided_jsonl_roles"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "All right, lastly, could you please find the scissors?"
+          },
+          {
+            "role": "participant",
+            "text": "High cart, do you know where the scissors are?"
+          },
+          {
+            "role": "robot",
+            "text": "I did not understand that request."
+          },
+          {
+            "role": "participant",
+            "text": "Do you know where the scissors are?"
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer five."
+          }
+        ],
+        "source": "data_master.jsonl:196",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_041",
+    "sample_aliases": [
+      "sample_041"
+    ],
+    "participant_id": "8",
+    "trial_index": 3,
+    "label": "success",
+    "setting": null,
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 3.32s] Then, just cut your car head against a\n[4.56s → 6.20s] metro pull-off.\n[7.48s → 8.88s] I need metropole oil.\n[11.48s → 13.04s] Item is in drawer one.\n[20.60s → 22.80s] Yeah, so that one was found.\n[22.80s → 24.12s] Now, try a full..."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "um please can you go ahead and get a metro polo?"
+          },
+          {
+            "role": "participant",
+            "text": "i need metro polo."
+          },
+          {
+            "role": "robot",
+            "text": "item is in drawer one."
+          },
+          {
+            "role": "operator",
+            "text": "Yeah, so that one was found."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample041.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "um please can you go ahead and get a metro polo?"
+          },
+          {
+            "role": "participant",
+            "text": "i need metro polo."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer one."
+          }
+        ],
+        "source": "data_master.jsonl:38",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_043",
+    "sample_aliases": [
+      "sample_043"
+    ],
+    "participant_id": "8",
+    "trial_index": 5,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 10.24s] final the fifth reaction, this go ahead and get a medical tape. I need medical tape.\n[10.24s → 22.68s] Item is in drawer 3. Thank you. That is now in the kind of different trials.\n[22.68s → 27.28s] Okay. And so for now, this session we're just going to watch it was three minutes.\n[27.28s → 29.00s] So we're going to watch."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "final the fifth reaction um please go ahead and get a medical tape."
+          },
+          {
+            "role": "participant",
+            "text": "i need medical tape."
+          },
+          {
+            "role": "robot",
+            "text": "item is in drawer three."
+          },
+          {
+            "role": "participant",
+            "text": "got it."
+          },
+          {
+            "role": "operator",
+            "text": "okay thank you that is and now that is the end of the five different trials okay and so for now this session we're just going to watch it was three minutes so we're going to watch."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample043.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "final the fifth reaction um please go ahead and get a medical tape."
+          },
+          {
+            "role": "participant",
+            "text": "i need medical tape."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Item is in drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:40",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_044",
+    "sample_aliases": [
+      "sample_044"
+    ],
+    "participant_id": "9",
+    "trial_index": 1,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 8.28s] the razor. Okay he said he needed a razor. Click on the dry.\n[8.28s → 20.20s] Thank you thank you that's one trial and then for the\n[21.20s → 25.94s] what's in the mouse?\n[31.40s → 33.16s] here is your mouse.\n[33.16s → 40.16s] There's a mouse here. So just read the screen.\n[40.16s → 46.16s] So sorry, the screen is not sounding so we're just with this screen. Now let's go to..."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "can you get a razor from the from the cart a razor yeah i'll tell you so you're gonna communicate. so you can just say i need a razor and then it's supposed to help you to search for the razor. you say."
+          },
+          {
+            "role": "participant",
+            "text": "i need a razor."
+          },
+          {
+            "role": "operator",
+            "text": "okay you said you need a razor. click on the drawer."
+          },
+          {
+            "role": "robot",
+            "text": "drawer three."
+          },
+          {
+            "role": "operator",
+            "text": "thank you thank you that's one trial. Now where's the mouse click on your theory where is your mouse there's a mouse here so this is what you need. okay okay so just read the screen it's not sounding so sorry the speaker is not sounding so we'll just read the screen now let's go to"
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample044.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "can you get a razor from the from the cart a razor yeah i'll tell you so you're gonna communicate. so you can just say i need a razor and then it's supposed to help you to search for the razor. you say."
+          },
+          {
+            "role": "participant",
+            "text": "i need a razor."
+          },
+          {
+            "role": "operator",
+            "text": "okay you said you need a razor. click on the drawer."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Drawer three."
+          }
+        ],
+        "source": "data_master.jsonl:41",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  },
+  {
+    "trial_id": "sample_046",
+    "sample_aliases": [
+      "sample_046"
+    ],
+    "participant_id": "9",
+    "trial_index": 3,
+    "label": "success",
+    "setting": "hospital",
+    "setting_source": "supplied data_master setting labels via hash-checked row links",
+    "raw_transcripts": [
+      "[0.00s → 6.00s] So I need a calcium chloride injection.\n[6.00s → 9.00s] I need a calcium chloride injection.\n[9.00s → 11.00s] You got two?\n[17.00s → 19.00s] Okay, thank you."
+    ],
+    "candidates": [
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So I'll start the third trial. So I need a calcium chloride injection."
+          },
+          {
+            "role": "participant",
+            "text": "I need a calcium chloride injection."
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two."
+          },
+          {
+            "role": "participant",
+            "text": "There you go."
+          }
+        ],
+        "source": "Clean Samples Transcriptions/Relabelled/sample046.txt",
+        "kind": "provided_role_archive"
+      },
+      {
+        "turns": [
+          {
+            "role": "operator",
+            "text": "So I'll start the third trial. So I need a calcium chloride injection."
+          },
+          {
+            "role": "participant",
+            "text": "I need a calcium chloride injection."
+          },
+          {
+            "role": "robot",
+            "text": ""
+          },
+          {
+            "role": "robot",
+            "text": "Drawer two."
+          }
+        ],
+        "source": "data_master.jsonl:43",
+        "kind": "provided_jsonl_roles"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "repository": "anonymous-source:0032",
+  "commit": "withheld_for_anonymous_review",
+  "colab": "anonymous-source:0033",
+  "source_files": {
+    "StateLM_Colab_final.ipynb": "13ef6673d5cee6bcbfaf5b6a9a6c64bb73f469ad08c4e31ed471d936031040ea",
+    "repo/datasets/original/authoritative_labels.jsonl": "ce0a1b6086cb8241ec6926a0148e820c3b096fef66cae0831f09e294c9811115",
+    "old_colab/statelm/data/transcripts.zip": "d345c584a69c8a765b848ea52bf9b3812e8436ef6b915637be90ba17581bc832",
+    "old_colab/statelm/data/data_master.jsonl": "4930d4bc01503401e84d4f3e8665b82c1897b9349cf1b37af52846420a3c7981",
+    "old_colab/statelm/data/source_row_links.json": "71a81d427221a7fcfd4e3f18e3de721ffa2c3d583c5588fa4d7fe6aa312c6ab0",
+    "repo/datasets/fsm_v1/inventory/original_inventory.json": "162a32355b7c07338daadbf0139c04d985fa174213ec3801a276da073de1e685"
+  },
+  "success_trials": 41,
+  "transformations": [
+    "Select explicit success labels; group physical trial aliases",
+    "Copy supplied role annotations and raw robot output without running old code",
+    "Join provided setting labels using source-row hashes",
+    "Separate reference inventory into evaluator-only file",
+    "Replaced identifying source URLs with anonymous local references; algorithm and dialogue values unchanged"
+  ],
+  "warning": "Provided role annotations are not independently adjudicated; extraction does not certify physical ground truth.",
+  "snapshot_files": {
+    "evaluation_inventory.json": "b725b863070d60f4a2e36de6fd0222c68847d841f7924139b59f9607c7984d4f",
+    "success_corpus.json": "8ceba5d26f49340bf352dfdf91812f6e730bfe4e4d756dcf43b95a339cf4369b"
+  }
+}
