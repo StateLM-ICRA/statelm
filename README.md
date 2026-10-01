@@ -43,14 +43,3 @@ to contain all earlier turns of the same interaction, so "I need a pencil",
 | `cache_v3_realstream` stream | the recorded turns of the trial up to the decision | the stream has no answers to clarification questions |
 | `cache_v3_realstream` chat | last 8 turns plus dialogue memory | history is not cleared between interactions until `/reset` |
 
-## Model weights
-
-Weights are not in git. `VERSIONS.md` lists every adapter with its SHA-256 and location.
-
-## Tests that run without a GPU
-
-| Folder | Command | Result (29 Sept) |
-|---|---|---|
-| `cache_v3_realstream` | `python -m unittest discover -s tests` | 12 of 12 pass |
-| `fsm_baseline` | `python -m unittest discover -s tests` | 19 of 20 pass; the source-rebuild test fails because the review copy removed Drive links (`REVIEW_NOTES.md`) |
-| `gemma2b` | `python -m unittest tests.test_core` | 23 of 23 pass; the other test files need PyTorch |
