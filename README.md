@@ -78,15 +78,6 @@ python -m unittest discover -s tests
 The full Fig. 2 experiment (SLM pass over the stream, replay, figure and
 sensitivity table) is in `cache_v3/notebooks/StateLM_RealStream_Fig2.ipynb`.
 
-## Tests
-
-```bash
-cd cache_v3        && python -m unittest discover -s tests   # 12 tests
-cd fsm_handcrafted && python -m unittest discover -s tests   # 20 tests
-cd slm_gemma2b     && python -m unittest tests.test_core     # 23 tests
-```
-
-The other test files in `slm_gemma2b/tests` need PyTorch and a GPU.
 
 ## Data
 
